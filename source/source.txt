@@ -1,0 +1,25 @@
+void main() {
+    int a, b, d, n;
+    char c;
+    bool flag = false;
+    c = 'c';
+    n = 1;
+    if (n == 1) {
+        b = 10;
+        d = b;
+        /*a = b*/
+        for (a = 0; a < b; a = a + 1) {
+            if (d <= 5) {
+                flag = true;
+            }
+            //d<=5
+            if (flag) {
+                c = 'a';
+            }
+            d--;
+        }        
+    }
+    else {
+        c = 'b';
+    }   
+}

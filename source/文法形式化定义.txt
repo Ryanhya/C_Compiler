@@ -1,0 +1,74 @@
+文法G[S]={Vn，Vt，S，P}
+本文法在原有文法基础上进行简化与修改：
+
+非终结符号集Vn：{S  ,  Y  ,  O  ,  D  ,  C  ,  A  ,  B  ,  L  ,  T  ,  P  ,  Q  ,  E  ,  G  ,  I  ,  F  ,  J  ,
+  K  ,  H  ,  U  ,  V  ,  R}
+
+终结符号集Vt：{id  ,  num  ,  character  ，void  ,  main   ， (  ,  )  ,  '  ,  ;  ,  ','  ,  {  ,  }  ,  +  ,
+  -  ,  *  ,  /  ,  ++  ,  --  ,  >  ,  <  ,  =  ,  >=  ,  <=  ,  ==  ,  !=  ,  &&  ,  ||  ,  !  ,  int  ,  char  ,
+  bool  ,  true  ,  false  ,  if  ,  else  ,  while  ,  for  ,  $}
+id为标识符，num为数字，character为单个字符
+
+开始符号：S
+
+产生式集合P：
+大写字母为非终结符号，小写字母为终结符号
+标注：（O为其他，Y为语句体集合statement，D为声明语句，C为控制语句，A为赋值语句，
+B为条件分支语句，L为循环语句，T为变量类型，P和Q用于多个同类型变量同时声明，
+E为算术表达式，G为布尔表达式，F为因式，I为项，H为逻辑运算符，J和K用于布尔表达式计算，
+R表示for循环初始化有无声明类型，U为if分支，V为else分支或空）
+
+产生式：（使用#表示空）
+S->void main(){Y}
+Y->OY
+O->D
+O->C
+O->A
+C->B
+C->L
+Y->#
+D->TP;
+T->int|char|bool
+P->Q,P
+P->Q
+Q->id
+Q->A
+A->id=E;
+A->id=G;
+A->id=true;
+A->id=false;
+A->id=id++;
+A->id=id--;
+A->id='character';
+//下面的部分产生式存在左递归，如使用LL(1)分析需要消除左递归
+E->E+I
+E->E-I
+E->I
+I->I*F
+I->I/F
+I->F
+F->(E)
+F->num
+F->id
+G->G||J
+G->J
+J->J&&K
+J->K
+K->(G)|!G|true|false|EHE|id
+H-> == | > | < | >= | <= | !=
+//上面的部分产生式存在左递归，如使用LL(1)分析需要消除左递归
+B->UV
+U->if(G){Y}
+V->else{Y}
+V->#
+L->while(G){Y}
+L->for(RA;G;A){Y}
+R->T
+R->#
+
+
+
+
+
+
+

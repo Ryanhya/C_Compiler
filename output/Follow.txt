@@ -1,0 +1,24 @@
+Follow(S') = {  $  }
+Follow(C) = {  bool  char  for  id  if  int  while  }  }
+Follow(S) = {  $  }
+Follow(Y) = {  }  }
+Follow(O) = {  bool  char  for  id  if  int  while  }  }
+Follow(T) = {  id  }
+Follow(D) = {  ;  }
+Follow(R) = {  id  }
+Follow(P) = {  ;  }
+Follow(Q) = {  ,  ;  }
+Follow(A) = {  )  ,  ;  }
+Follow(K) = {  &&  )  ,  ;  ||  }
+Follow(G) = {  &&  )  ,  ;  ||  }
+Follow(J) = {  &&  )  ,  ;  ||  }
+Follow(E) = {  !=  &&  )  +  ,  -  ;  <  <=  ==  >  >=  ||  }
+Follow(I) = {  !=  &&  )  *  +  ,  -  /  ;  <  <=  ==  >  >=  ||  }
+Follow(F) = {  !=  &&  )  *  +  ,  -  /  ;  <  <=  ==  >  >=  ||  }
+Follow(H) = {  (  id  num  }
+Follow(B) = {  bool  char  for  id  if  int  while  }  }
+Follow(U) = {  bool  char  else  for  id  if  int  while  }  }
+Follow(V) = {  bool  char  for  id  if  int  while  }  }
+Follow(L) = {  bool  char  for  id  if  int  while  }  }
+Follow(M) = {  !  (  false  id  num  true  {  }
+Follow(N) = {  else  }

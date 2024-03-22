@@ -1,0 +1,90 @@
+First(for) = {  for  }
+First(character) = {  character  }
+First(id) = {  id  }
+First(id=G) = {  id  }
+First(Q,P) = {  id  }
+First(num) = {  num  }
+First($) = {  $  }
+First({) = {  {  }
+First(;) = {  ;  }
+First(UV) = {  if  }
+First(#) = {  #  }
+First(() = {  (  }
+First()) = {  )  }
+First(,) = {  ,  }
+First(=) = {  =  }
+First(}) = {  }  }
+First(+) = {  +  }
+First(D;) = {  bool  char  int  }
+First(-) = {  -  }
+First(*) = {  *  }
+First(bool) = {  bool  }
+First(int) = {  int  }
+First(/) = {  /  }
+First(++) = {  ++  }
+First(D) = {  bool  char  int  }
+First(P) = {  id  }
+First(==) = {  ==  }
+First(--) = {  --  }
+First(>) = {  >  }
+First(for(RA;MG;A)M{Y}) = {  for  }
+First(id=true) = {  id  }
+First(<) = {  <  }
+First(Y) = {  #  bool  char  for  id  if  int  while  }
+First(>=) = {  >=  }
+First(C) = {  for  if  while  }
+First(<=) = {  <=  }
+First(T) = {  bool  char  int  }
+First(!=) = {  !=  }
+First(&&) = {  &&  }
+First(B) = {  if  }
+First(||) = {  ||  }
+First(!) = {  !  }
+First(S') = {  void  }
+First(void) = {  void  }
+First(char) = {  char  }
+First(main) = {  main  }
+First(OY) = {  bool  char  for  id  if  int  while  }
+First(true) = {  true  }
+First(false) = {  false  }
+First(if) = {  if  }
+First(id=E) = {  id  }
+First(else) = {  else  }
+First(id++) = {  id  }
+First(while) = {  while  }
+First(S) = {  void  }
+First(void main(){Y}) = {  void  }
+First(O) = {  bool  char  for  id  if  int  while  }
+First(A;) = {  id  }
+First(L) = {  for  while  }
+First(TP) = {  bool  char  int  }
+First(R) = {  #  bool  char  int  }
+First(if(G)M{Y}) = {  if  }
+First(Q) = {  id  }
+First(A) = {  id  }
+First(id=false) = {  id  }
+First(id=character) = {  id  }
+First(id--) = {  id  }
+First(G) = {  !  (  false  id  num  true  }
+First(G||MJ) = {  !  (  false  id  num  true  }
+First(J) = {  !  (  false  id  num  true  }
+First(J&&MK) = {  !  (  false  id  num  true  }
+First(K) = {  !  (  false  id  num  true  }
+First((G)) = {  (  }
+First(!G) = {  !  }
+First(EHE) = {  (  id  num  }
+First(E) = {  (  id  num  }
+First(E+I) = {  (  id  num  }
+First(E-I) = {  (  id  num  }
+First(I*F) = {  (  id  num  }
+First(I) = {  (  id  num  }
+First(I/F) = {  (  id  num  }
+First(F) = {  (  id  num  }
+First((E)) = {  (  }
+First(H) = {  !=  <  <=  ==  >  >=  }
+First(U) = {  if  }
+First(V) = {  #  else  }
+First(NelseM{Y}) = {  else  }
+First(whileM(G)M{Y}) = {  while  }
+First(M) = {  #  }
+First(N) = {  #  }

@@ -1,0 +1,41 @@
+﻿  C_Compiler.cpp
+  SemanticAnalysis.cpp
+D:\编译原理实习\C_Compiler\SemanticAnalysis.cpp(94,16): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SemanticAnalysis.cpp(98,16): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SemanticAnalysis.cpp(100,17): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SemanticAnalysis.cpp(120,16): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SemanticAnalysis.cpp(133,6): warning C4101: “i”: 未引用的局部变量
+  SyntaxAnalysis.cpp
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(26,19): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(176,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(224,19): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(225,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(248,19): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(256,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(269,43): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(310,19): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(356,19): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(377,19): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(392,19): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(419,41): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(436,19): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(465,19): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(477,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(504,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(515,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(554,19): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(626,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(628,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(630,31): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(646,19): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(678,19): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(697,18): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(718,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(947,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(949,35): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(80): warning C4715: “SyntaxAnalysis::getVt”: 不是所有的控件路径都返回值
+D:\编译原理实习\C_Compiler\SyntaxAnalysis.cpp(870): warning C4715: “SyntaxAnalysis::analyse”: 不是所有的控件路径都返回值
+D:\编译原理实习\C_Compiler\SemanticAnalysis.cpp(47): warning C4715: “SemanticAnalysis::getAddr”: 不是所有的控件路径都返回值
+D:\编译原理实习\C_Compiler\SemanticAnalysis.cpp(32): warning C4715: “SemanticAnalysis::entry”: 不是所有的控件路径都返回值
+  C_Compiler.vcxproj -> D:\编译原理实习\C_Compiler\Debug\C_Compiler.exe

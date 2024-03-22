@@ -1,0 +1,1208 @@
+I0:
+[ S'-> .S , $ ]  [ S-> .voidmain(){Y} , $ ]  
+I1:
+[ S'-> S. , $ ]  
+I2:
+[ S-> void.main(){Y} , $ ]  
+I3:
+[ S-> voidmain.(){Y} , $ ]  
+I4:
+[ S-> voidmain(.){Y} , $ ]  
+I5:
+[ S-> voidmain().{Y} , $ ]  
+I6:
+[ S-> voidmain(){.Y} , $ ]  [ Y-> .OY , } ]  [ Y-> .# , } ]  [ O-> .D; , bool ]  [ O-> .D; , char ]  [ O-> .D; , for ]  [ O-> .D; , id ]  [ O-> .D; , if ]  [ O-> .D; , int ]  [ O-> .D; , while ]  [ O-> .D; , } ]  [ O-> .C , bool ]  [ O-> .C , char ]  [ O-> .C , for ]  [ O-> .C , id ]  [ O-> .C , if ]  [ O-> .C , int ]  [ O-> .C , while ]  [ O-> .C , } ]  [ O-> .A; , bool ]  [ O-> .A; , char ]  [ O-> .A; , for ]  [ O-> .A; , id ]  [ O-> .A; , if ]  [ O-> .A; , int ]  [ O-> .A; , while ]  [ O-> .A; , } ]  [ D-> .TP , ; ]  [ C-> .B , bool ]  [ C-> .L , bool ]  [ C-> .B , char ]  [ C-> .L , char ]  [ C-> .B , for ]  [ C-> .L , for ]  [ C-> .B , id ]  [ C-> .L , id ]  [ C-> .B , if ]  [ C-> .L , if ]  [ C-> .B , int ]  [ C-> .L , int ]  [ C-> .B , while ]  [ C-> .L , while ]  [ C-> .B , } ]  [ C-> .L , } ]  [ A-> .id=E , ; ]  [ A-> .id=G , ; ]  [ A-> .id=true , ; ]  [ A-> .id=false , ; ]  [ A-> .id++ , ; ]  [ A-> .id-- , ; ]  [ A-> .id=character , ; ]  [ T-> .int , id ]  [ T-> .char , id ]  [ T-> .bool , id ]  [ B-> .UV , bool ]  [ L-> .whileM(G)M{Y} , bool ]  [ L-> .for(RA;MG;A)M{Y} , bool ]  [ B-> .UV , char ]  [ L-> .whileM(G)M{Y} , char ]  [ L-> .for(RA;MG;A)M{Y} , char ]  [ B-> .UV , for ]  [ L-> .whileM(G)M{Y} , for ]  [ L-> .for(RA;MG;A)M{Y} , for ]  [ B-> .UV , id ]  [ L-> .whileM(G)M{Y} , id ]  [ L-> .for(RA;MG;A)M{Y} , id ]  [ B-> .UV , if ]  [ L-> .whileM(G)M{Y} , if ]  [ L-> .for(RA;MG;A)M{Y} , if ]  [ B-> .UV , int ]  [ L-> .whileM(G)M{Y} , int ]  [ L-> .for(RA;MG;A)M{Y} , int ]  [ B-> .UV , while ]  [ L-> .whileM(G)M{Y} , while ]  [ L-> .for(RA;MG;A)M{Y} , while ]  [ B-> .UV , } ]  [ L-> .whileM(G)M{Y} , } ]  [ L-> .for(RA;MG;A)M{Y} , } ]  [ U-> .if(G)M{Y} , bool ]  [ U-> .if(G)M{Y} , else ]  [ U-> .if(G)M{Y} , char ]  [ U-> .if(G)M{Y} , for ]  [ U-> .if(G)M{Y} , id ]  [ U-> .if(G)M{Y} , if ]  [ U-> .if(G)M{Y} , int ]  [ U-> .if(G)M{Y} , while ]  [ U-> .if(G)M{Y} , } ]  
+I7:
+[ O-> A.; , bool ]  [ O-> A.; , char ]  [ O-> A.; , for ]  [ O-> A.; , id ]  [ O-> A.; , if ]  [ O-> A.; , int ]  [ O-> A.; , while ]  [ O-> A.; , } ]  
+I8:
+[ S-> voidmain(){Y.} , $ ]  
+I9:
+[ Y-> O.Y , } ]  [ Y-> .OY , } ]  [ Y-> .# , } ]  [ O-> .D; , bool ]  [ O-> .D; , char ]  [ O-> .D; , for ]  [ O-> .D; , id ]  [ O-> .D; , if ]  [ O-> .D; , int ]  [ O-> .D; , while ]  [ O-> .D; , } ]  [ O-> .C , bool ]  [ O-> .C , char ]  [ O-> .C , for ]  [ O-> .C , id ]  [ O-> .C , if ]  [ O-> .C , int ]  [ O-> .C , while ]  [ O-> .C , } ]  [ O-> .A; , bool ]  [ O-> .A; , char ]  [ O-> .A; , for ]  [ O-> .A; , id ]  [ O-> .A; , if ]  [ O-> .A; , int ]  [ O-> .A; , while ]  [ O-> .A; , } ]  [ D-> .TP , ; ]  [ C-> .B , bool ]  [ C-> .L , bool ]  [ C-> .B , char ]  [ C-> .L , char ]  [ C-> .B , for ]  [ C-> .L , for ]  [ C-> .B , id ]  [ C-> .L , id ]  [ C-> .B , if ]  [ C-> .L , if ]  [ C-> .B , int ]  [ C-> .L , int ]  [ C-> .B , while ]  [ C-> .L , while ]  [ C-> .B , } ]  [ C-> .L , } ]  [ A-> .id=E , ; ]  [ A-> .id=G , ; ]  [ A-> .id=true , ; ]  [ A-> .id=false , ; ]  [ A-> .id++ , ; ]  [ A-> .id-- , ; ]  [ A-> .id=character , ; ]  [ T-> .int , id ]  [ T-> .char , id ]  [ T-> .bool , id ]  [ B-> .UV , bool ]  [ L-> .whileM(G)M{Y} , bool ]  [ L-> .for(RA;MG;A)M{Y} , bool ]  [ B-> .UV , char ]  [ L-> .whileM(G)M{Y} , char ]  [ L-> .for(RA;MG;A)M{Y} , char ]  [ B-> .UV , for ]  [ L-> .whileM(G)M{Y} , for ]  [ L-> .for(RA;MG;A)M{Y} , for ]  [ B-> .UV , id ]  [ L-> .whileM(G)M{Y} , id ]  [ L-> .for(RA;MG;A)M{Y} , id ]  [ B-> .UV , if ]  [ L-> .whileM(G)M{Y} , if ]  [ L-> .for(RA;MG;A)M{Y} , if ]  [ B-> .UV , int ]  [ L-> .whileM(G)M{Y} , int ]  [ L-> .for(RA;MG;A)M{Y} , int ]  [ B-> .UV , while ]  [ L-> .whileM(G)M{Y} , while ]  [ L-> .for(RA;MG;A)M{Y} , while ]  [ B-> .UV , } ]  [ L-> .whileM(G)M{Y} , } ]  [ L-> .for(RA;MG;A)M{Y} , } ]  [ U-> .if(G)M{Y} , bool ]  [ U-> .if(G)M{Y} , else ]  [ U-> .if(G)M{Y} , char ]  [ U-> .if(G)M{Y} , for ]  [ U-> .if(G)M{Y} , id ]  [ U-> .if(G)M{Y} , if ]  [ U-> .if(G)M{Y} , int ]  [ U-> .if(G)M{Y} , while ]  [ U-> .if(G)M{Y} , } ]  
+I10:
+[ C-> L. , bool ]  [ C-> L. , char ]  [ C-> L. , for ]  [ C-> L. , id ]  [ C-> L. , if ]  [ C-> L. , int ]  [ C-> L. , while ]  [ C-> L. , } ]  
+I11:
+[ D-> T.P , ; ]  [ P-> .Q,P , ; ]  [ P-> .Q , ; ]  [ Q-> .id , , ]  [ Q-> .A , , ]  [ Q-> .id , ; ]  [ Q-> .A , ; ]  [ A-> .id=E , , ]  [ A-> .id=G , , ]  [ A-> .id=true , , ]  [ A-> .id=false , , ]  [ A-> .id++ , , ]  [ A-> .id-- , , ]  [ A-> .id=character , , ]  [ A-> .id=E , ; ]  [ A-> .id=G , ; ]  [ A-> .id=true , ; ]  [ A-> .id=false , ; ]  [ A-> .id++ , ; ]  [ A-> .id-- , ; ]  [ A-> .id=character , ; ]  
+I12:
+[ O-> D.; , bool ]  [ O-> D.; , char ]  [ O-> D.; , for ]  [ O-> D.; , id ]  [ O-> D.; , if ]  [ O-> D.; , int ]  [ O-> D.; , while ]  [ O-> D.; , } ]  
+I13:
+[ O-> C. , bool ]  [ O-> C. , char ]  [ O-> C. , for ]  [ O-> C. , id ]  [ O-> C. , if ]  [ O-> C. , int ]  [ O-> C. , while ]  [ O-> C. , } ]  
+I14:
+[ C-> B. , bool ]  [ C-> B. , char ]  [ C-> B. , for ]  [ C-> B. , id ]  [ C-> B. , if ]  [ C-> B. , int ]  [ C-> B. , while ]  [ C-> B. , } ]  
+I15:
+[ A-> id.=E , ; ]  [ A-> id.=G , ; ]  [ A-> id.=true , ; ]  [ A-> id.=false , ; ]  [ A-> id.++ , ; ]  [ A-> id.-- , ; ]  [ A-> id.=character , ; ]  
+I16:
+[ T-> int. , id ]  
+I17:
+[ T-> char. , id ]  
+I18:
+[ T-> bool. , id ]  
+I19:
+[ B-> U.V , bool ]  [ B-> U.V , char ]  [ B-> U.V , for ]  [ B-> U.V , id ]  [ B-> U.V , if ]  [ B-> U.V , int ]  [ B-> U.V , while ]  [ B-> U.V , } ]  [ V-> .NelseM{Y} , bool ]  [ V-> .# , bool ]  [ V-> .NelseM{Y} , char ]  [ V-> .# , char ]  [ V-> .NelseM{Y} , for ]  [ V-> .# , for ]  [ V-> .NelseM{Y} , id ]  [ V-> .# , id ]  [ V-> .NelseM{Y} , if ]  [ V-> .# , if ]  [ V-> .NelseM{Y} , int ]  [ V-> .# , int ]  [ V-> .NelseM{Y} , while ]  [ V-> .# , while ]  [ V-> .NelseM{Y} , } ]  [ V-> .# , } ]  [ N-> .# , else ]  
+I20:
+[ L-> while.M(G)M{Y} , bool ]  [ L-> while.M(G)M{Y} , char ]  [ L-> while.M(G)M{Y} , for ]  [ L-> while.M(G)M{Y} , id ]  [ L-> while.M(G)M{Y} , if ]  [ L-> while.M(G)M{Y} , int ]  [ L-> while.M(G)M{Y} , while ]  [ L-> while.M(G)M{Y} , } ]  [ M-> .# , ( ]  
+I21:
+[ L-> for.(RA;MG;A)M{Y} , bool ]  [ L-> for.(RA;MG;A)M{Y} , char ]  [ L-> for.(RA;MG;A)M{Y} , for ]  [ L-> for.(RA;MG;A)M{Y} , id ]  [ L-> for.(RA;MG;A)M{Y} , if ]  [ L-> for.(RA;MG;A)M{Y} , int ]  [ L-> for.(RA;MG;A)M{Y} , while ]  [ L-> for.(RA;MG;A)M{Y} , } ]  
+I22:
+[ U-> if.(G)M{Y} , bool ]  [ U-> if.(G)M{Y} , else ]  [ U-> if.(G)M{Y} , char ]  [ U-> if.(G)M{Y} , for ]  [ U-> if.(G)M{Y} , id ]  [ U-> if.(G)M{Y} , if ]  [ U-> if.(G)M{Y} , int ]  [ U-> if.(G)M{Y} , while ]  [ U-> if.(G)M{Y} , } ]  
+I23:
+[ O-> A;. , bool ]  [ O-> A;. , char ]  [ O-> A;. , for ]  [ O-> A;. , id ]  [ O-> A;. , if ]  [ O-> A;. , int ]  [ O-> A;. , while ]  [ O-> A;. , } ]  
+I24:
+[ S-> void main(){Y}. , $ ]  
+I25:
+[ Y-> OY. , } ]  
+I26:
+[ D-> TP. , ; ]  
+I27:
+[ Q-> A. , , ]  [ Q-> A. , ; ]  
+I28:
+[ P-> Q.,P , ; ]  [ P-> Q. , ; ]  
+I29:
+[ Q-> id. , , ]  [ Q-> id. , ; ]  [ A-> id.=E , , ]  [ A-> id.=G , , ]  [ A-> id.=true , , ]  [ A-> id.=false , , ]  [ A-> id.++ , , ]  [ A-> id.-- , , ]  [ A-> id.=character , , ]  [ A-> id.=E , ; ]  [ A-> id.=G , ; ]  [ A-> id.=true , ; ]  [ A-> id.=false , ; ]  [ A-> id.++ , ; ]  [ A-> id.-- , ; ]  [ A-> id.=character , ; ]  
+I30:
+[ O-> D;. , bool ]  [ O-> D;. , char ]  [ O-> D;. , for ]  [ O-> D;. , id ]  [ O-> D;. , if ]  [ O-> D;. , int ]  [ O-> D;. , while ]  [ O-> D;. , } ]  
+I31:
+[ A-> id=.E , ; ]  [ A-> id=.G , ; ]  [ A-> id=.true , ; ]  [ A-> id=.false , ; ]  [ A-> id=.character , ; ]  [ E-> .E+I , ; ]  [ E-> .E-I , ; ]  [ E-> .I , ; ]  [ G-> .G||MJ , ; ]  [ G-> .J , ; ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , ; ]  [ I-> .I/F , ; ]  [ I-> .F , ; ]  [ G-> .G||MJ , || ]  [ G-> .J , || ]  [ J-> .J&&MK , ; ]  [ J-> .K , ; ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , ; ]  [ F-> .num , ; ]  [ F-> .id , ; ]  [ J-> .J&&MK , || ]  [ J-> .K , || ]  [ J-> .J&&MK , && ]  [ J-> .K , && ]  [ K-> .(G) , ; ]  [ K-> .!G , ; ]  [ K-> .true , ; ]  [ K-> .false , ; ]  [ K-> .EHE , ; ]  [ K-> .id , ; ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  
+I32:
+[ A-> id++. , ; ]  
+I33:
+[ A-> id--. , ; ]  
+I34:
+[ V-> N.elseM{Y} , bool ]  [ V-> N.elseM{Y} , char ]  [ V-> N.elseM{Y} , for ]  [ V-> N.elseM{Y} , id ]  [ V-> N.elseM{Y} , if ]  [ V-> N.elseM{Y} , int ]  [ V-> N.elseM{Y} , while ]  [ V-> N.elseM{Y} , } ]  
+I35:
+[ B-> UV. , bool ]  [ B-> UV. , char ]  [ B-> UV. , for ]  [ B-> UV. , id ]  [ B-> UV. , if ]  [ B-> UV. , int ]  [ B-> UV. , while ]  [ B-> UV. , } ]  
+I36:
+[ L-> whileM.(G)M{Y} , bool ]  [ L-> whileM.(G)M{Y} , char ]  [ L-> whileM.(G)M{Y} , for ]  [ L-> whileM.(G)M{Y} , id ]  [ L-> whileM.(G)M{Y} , if ]  [ L-> whileM.(G)M{Y} , int ]  [ L-> whileM.(G)M{Y} , while ]  [ L-> whileM.(G)M{Y} , } ]  
+I37:
+[ L-> for(.RA;MG;A)M{Y} , bool ]  [ L-> for(.RA;MG;A)M{Y} , char ]  [ L-> for(.RA;MG;A)M{Y} , for ]  [ L-> for(.RA;MG;A)M{Y} , id ]  [ L-> for(.RA;MG;A)M{Y} , if ]  [ L-> for(.RA;MG;A)M{Y} , int ]  [ L-> for(.RA;MG;A)M{Y} , while ]  [ L-> for(.RA;MG;A)M{Y} , } ]  [ R-> .T , id ]  [ R-> .# , id ]  [ T-> .int , id ]  [ T-> .char , id ]  [ T-> .bool , id ]  
+I38:
+[ U-> if(.G)M{Y} , bool ]  [ U-> if(.G)M{Y} , else ]  [ U-> if(.G)M{Y} , char ]  [ U-> if(.G)M{Y} , for ]  [ U-> if(.G)M{Y} , id ]  [ U-> if(.G)M{Y} , if ]  [ U-> if(.G)M{Y} , int ]  [ U-> if(.G)M{Y} , while ]  [ U-> if(.G)M{Y} , } ]  [ G-> .G||MJ , ) ]  [ G-> .J , ) ]  [ G-> .G||MJ , || ]  [ G-> .J , || ]  [ J-> .J&&MK , ) ]  [ J-> .K , ) ]  [ J-> .J&&MK , || ]  [ J-> .K , || ]  [ J-> .J&&MK , && ]  [ J-> .K , && ]  [ K-> .(G) , ) ]  [ K-> .!G , ) ]  [ K-> .true , ) ]  [ K-> .false , ) ]  [ K-> .EHE , ) ]  [ K-> .id , ) ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I39:
+[ P-> Q,.P , ; ]  [ P-> .Q,P , ; ]  [ P-> .Q , ; ]  [ Q-> .id , , ]  [ Q-> .A , , ]  [ Q-> .id , ; ]  [ Q-> .A , ; ]  [ A-> .id=E , , ]  [ A-> .id=G , , ]  [ A-> .id=true , , ]  [ A-> .id=false , , ]  [ A-> .id++ , , ]  [ A-> .id-- , , ]  [ A-> .id=character , , ]  [ A-> .id=E , ; ]  [ A-> .id=G , ; ]  [ A-> .id=true , ; ]  [ A-> .id=false , ; ]  [ A-> .id++ , ; ]  [ A-> .id-- , ; ]  [ A-> .id=character , ; ]  
+I40:
+[ A-> id=.E , , ]  [ A-> id=.G , , ]  [ A-> id=.true , , ]  [ A-> id=.false , , ]  [ A-> id=.character , , ]  [ A-> id=.E , ; ]  [ A-> id=.G , ; ]  [ A-> id=.true , ; ]  [ A-> id=.false , ; ]  [ A-> id=.character , ; ]  [ E-> .E+I , , ]  [ E-> .E-I , , ]  [ E-> .I , , ]  [ G-> .G||MJ , , ]  [ G-> .J , , ]  [ E-> .E+I , ; ]  [ E-> .E-I , ; ]  [ E-> .I , ; ]  [ G-> .G||MJ , ; ]  [ G-> .J , ; ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , , ]  [ I-> .I/F , , ]  [ I-> .F , , ]  [ G-> .G||MJ , || ]  [ G-> .J , || ]  [ J-> .J&&MK , , ]  [ J-> .K , , ]  [ I-> .I*F , ; ]  [ I-> .I/F , ; ]  [ I-> .F , ; ]  [ J-> .J&&MK , ; ]  [ J-> .K , ; ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , , ]  [ F-> .num , , ]  [ F-> .id , , ]  [ J-> .J&&MK , || ]  [ J-> .K , || ]  [ J-> .J&&MK , && ]  [ J-> .K , && ]  [ K-> .(G) , , ]  [ K-> .!G , , ]  [ K-> .true , , ]  [ K-> .false , , ]  [ K-> .EHE , , ]  [ K-> .id , , ]  [ F-> .(E) , ; ]  [ F-> .num , ; ]  [ F-> .id , ; ]  [ K-> .(G) , ; ]  [ K-> .!G , ; ]  [ K-> .true , ; ]  [ K-> .false , ; ]  [ K-> .EHE , ; ]  [ K-> .id , ; ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  
+I41:
+[ A-> id++. , , ]  [ A-> id++. , ; ]  
+I42:
+[ A-> id--. , , ]  [ A-> id--. , ; ]  
+I43:
+[ A-> id=character. , ; ]  
+I44:
+[ A-> id=false. , ; ]  [ K-> false. , ; ]  [ K-> false. , || ]  [ K-> false. , && ]  
+I45:
+[ A-> id=E. , ; ]  [ E-> E.+I , ; ]  [ E-> E.-I , ; ]  [ E-> E.+I , + ]  [ E-> E.-I , + ]  [ E-> E.+I , - ]  [ E-> E.-I , - ]  [ K-> E.HE , ; ]  [ K-> E.HE , || ]  [ K-> E.HE , && ]  [ E-> E.+I , != ]  [ E-> E.+I , < ]  [ E-> E.+I , <= ]  [ E-> E.+I , == ]  [ E-> E.+I , > ]  [ E-> E.+I , >= ]  [ E-> E.-I , != ]  [ E-> E.-I , < ]  [ E-> E.-I , <= ]  [ E-> E.-I , == ]  [ E-> E.-I , > ]  [ E-> E.-I , >= ]  [ H-> .== , ( ]  [ H-> .== , id ]  [ H-> .== , num ]  [ H-> .> , ( ]  [ H-> .> , id ]  [ H-> .> , num ]  [ H-> .< , ( ]  [ H-> .< , id ]  [ H-> .< , num ]  [ H-> .>= , ( ]  [ H-> .>= , id ]  [ H-> .>= , num ]  [ H-> .<= , ( ]  [ H-> .<= , id ]  [ H-> .<= , num ]  [ H-> .!= , ( ]  [ H-> .!= , id ]  [ H-> .!= , num ]  
+I46:
+[ A-> id=G. , ; ]  [ G-> G.||MJ , ; ]  [ G-> G.||MJ , || ]  
+I47:
+[ G-> J. , ; ]  [ G-> J. , || ]  [ J-> J.&&MK , ; ]  [ J-> J.&&MK , || ]  [ J-> J.&&MK , && ]  
+I48:
+[ A-> id=true. , ; ]  [ K-> true. , ; ]  [ K-> true. , || ]  [ K-> true. , && ]  
+I49:
+[ E-> I. , ; ]  [ E-> I. , + ]  [ E-> I. , - ]  [ I-> I.*F , ; ]  [ I-> I./F , ; ]  [ I-> I.*F , + ]  [ I-> I./F , + ]  [ I-> I.*F , - ]  [ I-> I./F , - ]  [ I-> I.*F , * ]  [ I-> I./F , * ]  [ I-> I.*F , / ]  [ I-> I./F , / ]  [ E-> I. , != ]  [ E-> I. , < ]  [ E-> I. , <= ]  [ E-> I. , == ]  [ E-> I. , > ]  [ E-> I. , >= ]  [ I-> I.*F , != ]  [ I-> I./F , != ]  [ I-> I.*F , < ]  [ I-> I./F , < ]  [ I-> I.*F , <= ]  [ I-> I./F , <= ]  [ I-> I.*F , == ]  [ I-> I./F , == ]  [ I-> I.*F , > ]  [ I-> I./F , > ]  [ I-> I.*F , >= ]  [ I-> I./F , >= ]  
+I50:
+[ I-> F. , ; ]  [ I-> F. , + ]  [ I-> F. , - ]  [ I-> F. , * ]  [ I-> F. , / ]  [ I-> F. , != ]  [ I-> F. , < ]  [ I-> F. , <= ]  [ I-> F. , == ]  [ I-> F. , > ]  [ I-> F. , >= ]  
+I51:
+[ J-> K. , ; ]  [ J-> K. , || ]  [ J-> K. , && ]  
+I52:
+[ F-> (.E) , ; ]  [ K-> (.G) , ; ]  [ F-> (.E) , + ]  [ F-> (.E) , - ]  [ F-> (.E) , * ]  [ F-> (.E) , / ]  [ K-> (.G) , || ]  [ K-> (.G) , && ]  [ F-> (.E) , != ]  [ F-> (.E) , < ]  [ F-> (.E) , <= ]  [ F-> (.E) , == ]  [ F-> (.E) , > ]  [ F-> (.E) , >= ]  [ E-> .E+I , ) ]  [ E-> .E-I , ) ]  [ E-> .I , ) ]  [ G-> .G||MJ , ) ]  [ G-> .J , ) ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , ) ]  [ I-> .I/F , ) ]  [ I-> .F , ) ]  [ G-> .G||MJ , || ]  [ G-> .J , || ]  [ J-> .J&&MK , ) ]  [ J-> .K , ) ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , ) ]  [ F-> .num , ) ]  [ F-> .id , ) ]  [ J-> .J&&MK , || ]  [ J-> .K , || ]  [ J-> .J&&MK , && ]  [ J-> .K , && ]  [ K-> .(G) , ) ]  [ K-> .!G , ) ]  [ K-> .true , ) ]  [ K-> .false , ) ]  [ K-> .EHE , ) ]  [ K-> .id , ) ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  
+I53:
+[ F-> num. , ; ]  [ F-> num. , + ]  [ F-> num. , - ]  [ F-> num. , * ]  [ F-> num. , / ]  [ F-> num. , != ]  [ F-> num. , < ]  [ F-> num. , <= ]  [ F-> num. , == ]  [ F-> num. , > ]  [ F-> num. , >= ]  
+I54:
+[ F-> id. , ; ]  [ K-> id. , ; ]  [ F-> id. , + ]  [ F-> id. , - ]  [ F-> id. , * ]  [ F-> id. , / ]  [ K-> id. , || ]  [ K-> id. , && ]  [ F-> id. , != ]  [ F-> id. , < ]  [ F-> id. , <= ]  [ F-> id. , == ]  [ F-> id. , > ]  [ F-> id. , >= ]  
+I55:
+[ K-> !.G , ; ]  [ K-> !.G , || ]  [ K-> !.G , && ]  [ G-> .G||MJ , ; ]  [ G-> .J , ; ]  [ G-> .G||MJ , || ]  [ G-> .J , || ]  [ G-> .G||MJ , && ]  [ G-> .J , && ]  [ J-> .J&&MK , ; ]  [ J-> .K , ; ]  [ J-> .J&&MK , || ]  [ J-> .K , || ]  [ J-> .J&&MK , && ]  [ J-> .K , && ]  [ K-> .(G) , ; ]  [ K-> .!G , ; ]  [ K-> .true , ; ]  [ K-> .false , ; ]  [ K-> .EHE , ; ]  [ K-> .id , ; ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I56:
+[ V-> Nelse.M{Y} , bool ]  [ V-> Nelse.M{Y} , char ]  [ V-> Nelse.M{Y} , for ]  [ V-> Nelse.M{Y} , id ]  [ V-> Nelse.M{Y} , if ]  [ V-> Nelse.M{Y} , int ]  [ V-> Nelse.M{Y} , while ]  [ V-> Nelse.M{Y} , } ]  [ M-> .# , { ]  
+I57:
+[ L-> whileM(.G)M{Y} , bool ]  [ L-> whileM(.G)M{Y} , char ]  [ L-> whileM(.G)M{Y} , for ]  [ L-> whileM(.G)M{Y} , id ]  [ L-> whileM(.G)M{Y} , if ]  [ L-> whileM(.G)M{Y} , int ]  [ L-> whileM(.G)M{Y} , while ]  [ L-> whileM(.G)M{Y} , } ]  [ G-> .G||MJ , ) ]  [ G-> .J , ) ]  [ G-> .G||MJ , || ]  [ G-> .J , || ]  [ J-> .J&&MK , ) ]  [ J-> .K , ) ]  [ J-> .J&&MK , || ]  [ J-> .K , || ]  [ J-> .J&&MK , && ]  [ J-> .K , && ]  [ K-> .(G) , ) ]  [ K-> .!G , ) ]  [ K-> .true , ) ]  [ K-> .false , ) ]  [ K-> .EHE , ) ]  [ K-> .id , ) ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I58:
+[ L-> for(R.A;MG;A)M{Y} , bool ]  [ L-> for(R.A;MG;A)M{Y} , char ]  [ L-> for(R.A;MG;A)M{Y} , for ]  [ L-> for(R.A;MG;A)M{Y} , id ]  [ L-> for(R.A;MG;A)M{Y} , if ]  [ L-> for(R.A;MG;A)M{Y} , int ]  [ L-> for(R.A;MG;A)M{Y} , while ]  [ L-> for(R.A;MG;A)M{Y} , } ]  [ A-> .id=E , ; ]  [ A-> .id=G , ; ]  [ A-> .id=true , ; ]  [ A-> .id=false , ; ]  [ A-> .id++ , ; ]  [ A-> .id-- , ; ]  [ A-> .id=character , ; ]  
+I59:
+[ R-> T. , id ]  
+I60:
+[ U-> if(G.)M{Y} , bool ]  [ U-> if(G.)M{Y} , else ]  [ U-> if(G.)M{Y} , char ]  [ U-> if(G.)M{Y} , for ]  [ U-> if(G.)M{Y} , id ]  [ U-> if(G.)M{Y} , if ]  [ U-> if(G.)M{Y} , int ]  [ U-> if(G.)M{Y} , while ]  [ U-> if(G.)M{Y} , } ]  [ G-> G.||MJ , ) ]  [ G-> G.||MJ , || ]  
+I61:
+[ K-> true. , ) ]  [ K-> true. , || ]  [ K-> true. , && ]  
+I62:
+[ G-> J. , ) ]  [ G-> J. , || ]  [ J-> J.&&MK , ) ]  [ J-> J.&&MK , || ]  [ J-> J.&&MK , && ]  
+I63:
+[ J-> K. , ) ]  [ J-> K. , || ]  [ J-> K. , && ]  
+I64:
+[ K-> (.G) , ) ]  [ K-> (.G) , || ]  [ K-> (.G) , && ]  [ F-> (.E) , != ]  [ F-> (.E) , < ]  [ F-> (.E) , <= ]  [ F-> (.E) , == ]  [ F-> (.E) , > ]  [ F-> (.E) , >= ]  [ F-> (.E) , + ]  [ F-> (.E) , - ]  [ F-> (.E) , * ]  [ F-> (.E) , / ]  [ G-> .G||MJ , ) ]  [ G-> .J , ) ]  [ E-> .E+I , ) ]  [ E-> .E-I , ) ]  [ E-> .I , ) ]  [ G-> .G||MJ , || ]  [ G-> .J , || ]  [ J-> .J&&MK , ) ]  [ J-> .K , ) ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , ) ]  [ I-> .I/F , ) ]  [ I-> .F , ) ]  [ J-> .J&&MK , || ]  [ J-> .K , || ]  [ J-> .J&&MK , && ]  [ J-> .K , && ]  [ K-> .(G) , ) ]  [ K-> .!G , ) ]  [ K-> .true , ) ]  [ K-> .false , ) ]  [ K-> .EHE , ) ]  [ K-> .id , ) ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , ) ]  [ F-> .num , ) ]  [ F-> .id , ) ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  
+I65:
+[ K-> !.G , ) ]  [ K-> !.G , || ]  [ K-> !.G , && ]  [ G-> .G||MJ , ) ]  [ G-> .J , ) ]  [ G-> .G||MJ , || ]  [ G-> .J , || ]  [ G-> .G||MJ , && ]  [ G-> .J , && ]  [ J-> .J&&MK , ) ]  [ J-> .K , ) ]  [ J-> .J&&MK , || ]  [ J-> .K , || ]  [ J-> .J&&MK , && ]  [ J-> .K , && ]  [ K-> .(G) , ) ]  [ K-> .!G , ) ]  [ K-> .true , ) ]  [ K-> .false , ) ]  [ K-> .EHE , ) ]  [ K-> .id , ) ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I66:
+[ K-> E.HE , ) ]  [ K-> E.HE , || ]  [ K-> E.HE , && ]  [ E-> E.+I , != ]  [ E-> E.+I , < ]  [ E-> E.+I , <= ]  [ E-> E.+I , == ]  [ E-> E.+I , > ]  [ E-> E.+I , >= ]  [ E-> E.-I , != ]  [ E-> E.-I , < ]  [ E-> E.-I , <= ]  [ E-> E.-I , == ]  [ E-> E.-I , > ]  [ E-> E.-I , >= ]  [ E-> E.+I , + ]  [ E-> E.-I , + ]  [ E-> E.+I , - ]  [ E-> E.-I , - ]  [ H-> .== , ( ]  [ H-> .== , id ]  [ H-> .== , num ]  [ H-> .> , ( ]  [ H-> .> , id ]  [ H-> .> , num ]  [ H-> .< , ( ]  [ H-> .< , id ]  [ H-> .< , num ]  [ H-> .>= , ( ]  [ H-> .>= , id ]  [ H-> .>= , num ]  [ H-> .<= , ( ]  [ H-> .<= , id ]  [ H-> .<= , num ]  [ H-> .!= , ( ]  [ H-> .!= , id ]  [ H-> .!= , num ]  
+I67:
+[ K-> false. , ) ]  [ K-> false. , || ]  [ K-> false. , && ]  
+I68:
+[ K-> id. , ) ]  [ K-> id. , || ]  [ K-> id. , && ]  [ F-> id. , != ]  [ F-> id. , < ]  [ F-> id. , <= ]  [ F-> id. , == ]  [ F-> id. , > ]  [ F-> id. , >= ]  [ F-> id. , + ]  [ F-> id. , - ]  [ F-> id. , * ]  [ F-> id. , / ]  
+I69:
+[ P-> Q,P. , ; ]  
+I70:
+[ A-> id=character. , , ]  [ A-> id=character. , ; ]  
+I71:
+[ A-> id=false. , , ]  [ A-> id=false. , ; ]  [ K-> false. , , ]  [ K-> false. , ; ]  [ K-> false. , || ]  [ K-> false. , && ]  
+I72:
+[ A-> id=E. , , ]  [ A-> id=E. , ; ]  [ E-> E.+I , , ]  [ E-> E.-I , , ]  [ E-> E.+I , ; ]  [ E-> E.-I , ; ]  [ E-> E.+I , + ]  [ E-> E.-I , + ]  [ E-> E.+I , - ]  [ E-> E.-I , - ]  [ K-> E.HE , , ]  [ K-> E.HE , ; ]  [ K-> E.HE , || ]  [ K-> E.HE , && ]  [ E-> E.+I , != ]  [ E-> E.+I , < ]  [ E-> E.+I , <= ]  [ E-> E.+I , == ]  [ E-> E.+I , > ]  [ E-> E.+I , >= ]  [ E-> E.-I , != ]  [ E-> E.-I , < ]  [ E-> E.-I , <= ]  [ E-> E.-I , == ]  [ E-> E.-I , > ]  [ E-> E.-I , >= ]  [ H-> .== , ( ]  [ H-> .== , id ]  [ H-> .== , num ]  [ H-> .> , ( ]  [ H-> .> , id ]  [ H-> .> , num ]  [ H-> .< , ( ]  [ H-> .< , id ]  [ H-> .< , num ]  [ H-> .>= , ( ]  [ H-> .>= , id ]  [ H-> .>= , num ]  [ H-> .<= , ( ]  [ H-> .<= , id ]  [ H-> .<= , num ]  [ H-> .!= , ( ]  [ H-> .!= , id ]  [ H-> .!= , num ]  
+I73:
+[ A-> id=G. , , ]  [ A-> id=G. , ; ]  [ G-> G.||MJ , , ]  [ G-> G.||MJ , ; ]  [ G-> G.||MJ , || ]  
+I74:
+[ G-> J. , , ]  [ G-> J. , ; ]  [ G-> J. , || ]  [ J-> J.&&MK , , ]  [ J-> J.&&MK , ; ]  [ J-> J.&&MK , || ]  [ J-> J.&&MK , && ]  
+I75:
+[ A-> id=true. , , ]  [ A-> id=true. , ; ]  [ K-> true. , , ]  [ K-> true. , ; ]  [ K-> true. , || ]  [ K-> true. , && ]  
+I76:
+[ E-> I. , , ]  [ E-> I. , ; ]  [ E-> I. , + ]  [ E-> I. , - ]  [ I-> I.*F , , ]  [ I-> I./F , , ]  [ I-> I.*F , ; ]  [ I-> I./F , ; ]  [ I-> I.*F , + ]  [ I-> I./F , + ]  [ I-> I.*F , - ]  [ I-> I./F , - ]  [ I-> I.*F , * ]  [ I-> I./F , * ]  [ I-> I.*F , / ]  [ I-> I./F , / ]  [ E-> I. , != ]  [ E-> I. , < ]  [ E-> I. , <= ]  [ E-> I. , == ]  [ E-> I. , > ]  [ E-> I. , >= ]  [ I-> I.*F , != ]  [ I-> I./F , != ]  [ I-> I.*F , < ]  [ I-> I./F , < ]  [ I-> I.*F , <= ]  [ I-> I./F , <= ]  [ I-> I.*F , == ]  [ I-> I./F , == ]  [ I-> I.*F , > ]  [ I-> I./F , > ]  [ I-> I.*F , >= ]  [ I-> I./F , >= ]  
+I77:
+[ I-> F. , , ]  [ I-> F. , ; ]  [ I-> F. , + ]  [ I-> F. , - ]  [ I-> F. , * ]  [ I-> F. , / ]  [ I-> F. , != ]  [ I-> F. , < ]  [ I-> F. , <= ]  [ I-> F. , == ]  [ I-> F. , > ]  [ I-> F. , >= ]  
+I78:
+[ J-> K. , , ]  [ J-> K. , ; ]  [ J-> K. , || ]  [ J-> K. , && ]  
+I79:
+[ F-> (.E) , , ]  [ K-> (.G) , , ]  [ F-> (.E) , ; ]  [ K-> (.G) , ; ]  [ F-> (.E) , + ]  [ F-> (.E) , - ]  [ F-> (.E) , * ]  [ F-> (.E) , / ]  [ K-> (.G) , || ]  [ K-> (.G) , && ]  [ F-> (.E) , != ]  [ F-> (.E) , < ]  [ F-> (.E) , <= ]  [ F-> (.E) , == ]  [ F-> (.E) , > ]  [ F-> (.E) , >= ]  [ E-> .E+I , ) ]  [ E-> .E-I , ) ]  [ E-> .I , ) ]  [ G-> .G||MJ , ) ]  [ G-> .J , ) ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , ) ]  [ I-> .I/F , ) ]  [ I-> .F , ) ]  [ G-> .G||MJ , || ]  [ G-> .J , || ]  [ J-> .J&&MK , ) ]  [ J-> .K , ) ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , ) ]  [ F-> .num , ) ]  [ F-> .id , ) ]  [ J-> .J&&MK , || ]  [ J-> .K , || ]  [ J-> .J&&MK , && ]  [ J-> .K , && ]  [ K-> .(G) , ) ]  [ K-> .!G , ) ]  [ K-> .true , ) ]  [ K-> .false , ) ]  [ K-> .EHE , ) ]  [ K-> .id , ) ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  
+I80:
+[ F-> num. , , ]  [ F-> num. , ; ]  [ F-> num. , + ]  [ F-> num. , - ]  [ F-> num. , * ]  [ F-> num. , / ]  [ F-> num. , != ]  [ F-> num. , < ]  [ F-> num. , <= ]  [ F-> num. , == ]  [ F-> num. , > ]  [ F-> num. , >= ]  
+I81:
+[ F-> id. , , ]  [ K-> id. , , ]  [ F-> id. , ; ]  [ K-> id. , ; ]  [ F-> id. , + ]  [ F-> id. , - ]  [ F-> id. , * ]  [ F-> id. , / ]  [ K-> id. , || ]  [ K-> id. , && ]  [ F-> id. , != ]  [ F-> id. , < ]  [ F-> id. , <= ]  [ F-> id. , == ]  [ F-> id. , > ]  [ F-> id. , >= ]  
+I82:
+[ K-> !.G , , ]  [ K-> !.G , ; ]  [ K-> !.G , || ]  [ K-> !.G , && ]  [ G-> .G||MJ , , ]  [ G-> .J , , ]  [ G-> .G||MJ , ; ]  [ G-> .J , ; ]  [ G-> .G||MJ , || ]  [ G-> .J , || ]  [ G-> .G||MJ , && ]  [ G-> .J , && ]  [ J-> .J&&MK , , ]  [ J-> .K , , ]  [ J-> .J&&MK , ; ]  [ J-> .K , ; ]  [ J-> .J&&MK , || ]  [ J-> .K , || ]  [ J-> .J&&MK , && ]  [ J-> .K , && ]  [ K-> .(G) , , ]  [ K-> .!G , , ]  [ K-> .true , , ]  [ K-> .false , , ]  [ K-> .EHE , , ]  [ K-> .id , , ]  [ K-> .(G) , ; ]  [ K-> .!G , ; ]  [ K-> .true , ; ]  [ K-> .false , ; ]  [ K-> .EHE , ; ]  [ K-> .id , ; ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I83:
+[ H-> <=. , ( ]  [ H-> <=. , id ]  [ H-> <=. , num ]  
+I84:
+[ E-> E+.I , ; ]  [ E-> E+.I , + ]  [ E-> E+.I , - ]  [ E-> E+.I , != ]  [ E-> E+.I , < ]  [ E-> E+.I , <= ]  [ E-> E+.I , == ]  [ E-> E+.I , > ]  [ E-> E+.I , >= ]  [ I-> .I*F , ; ]  [ I-> .I/F , ; ]  [ I-> .F , ; ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , ; ]  [ F-> .num , ; ]  [ F-> .id , ; ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I85:
+[ E-> E-.I , ; ]  [ E-> E-.I , + ]  [ E-> E-.I , - ]  [ E-> E-.I , != ]  [ E-> E-.I , < ]  [ E-> E-.I , <= ]  [ E-> E-.I , == ]  [ E-> E-.I , > ]  [ E-> E-.I , >= ]  [ I-> .I*F , ; ]  [ I-> .I/F , ; ]  [ I-> .F , ; ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , ; ]  [ F-> .num , ; ]  [ F-> .id , ; ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I86:
+[ H-> ==. , ( ]  [ H-> ==. , id ]  [ H-> ==. , num ]  
+I87:
+[ K-> EH.E , ; ]  [ K-> EH.E , || ]  [ K-> EH.E , && ]  [ E-> .E+I , ; ]  [ E-> .E-I , ; ]  [ E-> .I , ; ]  [ E-> .E+I , || ]  [ E-> .E-I , || ]  [ E-> .I , || ]  [ E-> .E+I , && ]  [ E-> .E-I , && ]  [ E-> .I , && ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , ; ]  [ I-> .I/F , ; ]  [ I-> .F , ; ]  [ I-> .I*F , || ]  [ I-> .I/F , || ]  [ I-> .F , || ]  [ I-> .I*F , && ]  [ I-> .I/F , && ]  [ I-> .F , && ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , ; ]  [ F-> .num , ; ]  [ F-> .id , ; ]  [ F-> .(E) , || ]  [ F-> .num , || ]  [ F-> .id , || ]  [ F-> .(E) , && ]  [ F-> .num , && ]  [ F-> .id , && ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I88:
+[ H-> >. , ( ]  [ H-> >. , id ]  [ H-> >. , num ]  
+I89:
+[ H-> <. , ( ]  [ H-> <. , id ]  [ H-> <. , num ]  
+I90:
+[ H-> >=. , ( ]  [ H-> >=. , id ]  [ H-> >=. , num ]  
+I91:
+[ H-> !=. , ( ]  [ H-> !=. , id ]  [ H-> !=. , num ]  
+I92:
+[ G-> G||.MJ , ; ]  [ G-> G||.MJ , || ]  [ M-> .# , ! ]  [ M-> .# , ( ]  [ M-> .# , false ]  [ M-> .# , id ]  [ M-> .# , num ]  [ M-> .# , true ]  
+I93:
+[ J-> J&&.MK , ; ]  [ J-> J&&.MK , || ]  [ J-> J&&.MK , && ]  [ M-> .# , ! ]  [ M-> .# , ( ]  [ M-> .# , false ]  [ M-> .# , id ]  [ M-> .# , num ]  [ M-> .# , true ]  
+I94:
+[ I-> I*.F , ; ]  [ I-> I*.F , + ]  [ I-> I*.F , - ]  [ I-> I*.F , * ]  [ I-> I*.F , / ]  [ I-> I*.F , != ]  [ I-> I*.F , < ]  [ I-> I*.F , <= ]  [ I-> I*.F , == ]  [ I-> I*.F , > ]  [ I-> I*.F , >= ]  [ F-> .(E) , ; ]  [ F-> .num , ; ]  [ F-> .id , ; ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  
+I95:
+[ I-> I/.F , ; ]  [ I-> I/.F , + ]  [ I-> I/.F , - ]  [ I-> I/.F , * ]  [ I-> I/.F , / ]  [ I-> I/.F , != ]  [ I-> I/.F , < ]  [ I-> I/.F , <= ]  [ I-> I/.F , == ]  [ I-> I/.F , > ]  [ I-> I/.F , >= ]  [ F-> .(E) , ; ]  [ F-> .num , ; ]  [ F-> .id , ; ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  
+I96:
+[ F-> (E.) , ; ]  [ F-> (E.) , + ]  [ F-> (E.) , - ]  [ F-> (E.) , * ]  [ F-> (E.) , / ]  [ F-> (E.) , != ]  [ F-> (E.) , < ]  [ F-> (E.) , <= ]  [ F-> (E.) , == ]  [ F-> (E.) , > ]  [ F-> (E.) , >= ]  [ E-> E.+I , ) ]  [ E-> E.-I , ) ]  [ E-> E.+I , + ]  [ E-> E.-I , + ]  [ E-> E.+I , - ]  [ E-> E.-I , - ]  [ K-> E.HE , ) ]  [ K-> E.HE , || ]  [ K-> E.HE , && ]  [ E-> E.+I , != ]  [ E-> E.+I , < ]  [ E-> E.+I , <= ]  [ E-> E.+I , == ]  [ E-> E.+I , > ]  [ E-> E.+I , >= ]  [ E-> E.-I , != ]  [ E-> E.-I , < ]  [ E-> E.-I , <= ]  [ E-> E.-I , == ]  [ E-> E.-I , > ]  [ E-> E.-I , >= ]  [ H-> .== , ( ]  [ H-> .== , id ]  [ H-> .== , num ]  [ H-> .> , ( ]  [ H-> .> , id ]  [ H-> .> , num ]  [ H-> .< , ( ]  [ H-> .< , id ]  [ H-> .< , num ]  [ H-> .>= , ( ]  [ H-> .>= , id ]  [ H-> .>= , num ]  [ H-> .<= , ( ]  [ H-> .<= , id ]  [ H-> .<= , num ]  [ H-> .!= , ( ]  [ H-> .!= , id ]  [ H-> .!= , num ]  
+I97:
+[ K-> (G.) , ; ]  [ K-> (G.) , || ]  [ K-> (G.) , && ]  [ G-> G.||MJ , ) ]  [ G-> G.||MJ , || ]  
+I98:
+[ E-> I. , ) ]  [ E-> I. , + ]  [ E-> I. , - ]  [ I-> I.*F , ) ]  [ I-> I./F , ) ]  [ I-> I.*F , + ]  [ I-> I./F , + ]  [ I-> I.*F , - ]  [ I-> I./F , - ]  [ I-> I.*F , * ]  [ I-> I./F , * ]  [ I-> I.*F , / ]  [ I-> I./F , / ]  [ E-> I. , != ]  [ E-> I. , < ]  [ E-> I. , <= ]  [ E-> I. , == ]  [ E-> I. , > ]  [ E-> I. , >= ]  [ I-> I.*F , != ]  [ I-> I./F , != ]  [ I-> I.*F , < ]  [ I-> I./F , < ]  [ I-> I.*F , <= ]  [ I-> I./F , <= ]  [ I-> I.*F , == ]  [ I-> I./F , == ]  [ I-> I.*F , > ]  [ I-> I./F , > ]  [ I-> I.*F , >= ]  [ I-> I./F , >= ]  
+I99:
+[ I-> F. , ) ]  [ I-> F. , + ]  [ I-> F. , - ]  [ I-> F. , * ]  [ I-> F. , / ]  [ I-> F. , != ]  [ I-> F. , < ]  [ I-> F. , <= ]  [ I-> F. , == ]  [ I-> F. , > ]  [ I-> F. , >= ]  
+I100:
+[ F-> (.E) , ) ]  [ K-> (.G) , ) ]  [ F-> (.E) , + ]  [ F-> (.E) , - ]  [ F-> (.E) , * ]  [ F-> (.E) , / ]  [ K-> (.G) , || ]  [ K-> (.G) , && ]  [ F-> (.E) , != ]  [ F-> (.E) , < ]  [ F-> (.E) , <= ]  [ F-> (.E) , == ]  [ F-> (.E) , > ]  [ F-> (.E) , >= ]  [ E-> .E+I , ) ]  [ E-> .E-I , ) ]  [ E-> .I , ) ]  [ G-> .G||MJ , ) ]  [ G-> .J , ) ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , ) ]  [ I-> .I/F , ) ]  [ I-> .F , ) ]  [ G-> .G||MJ , || ]  [ G-> .J , || ]  [ J-> .J&&MK , ) ]  [ J-> .K , ) ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , ) ]  [ F-> .num , ) ]  [ F-> .id , ) ]  [ J-> .J&&MK , || ]  [ J-> .K , || ]  [ J-> .J&&MK , && ]  [ J-> .K , && ]  [ K-> .(G) , ) ]  [ K-> .!G , ) ]  [ K-> .true , ) ]  [ K-> .false , ) ]  [ K-> .EHE , ) ]  [ K-> .id , ) ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  
+I101:
+[ F-> num. , ) ]  [ F-> num. , + ]  [ F-> num. , - ]  [ F-> num. , * ]  [ F-> num. , / ]  [ F-> num. , != ]  [ F-> num. , < ]  [ F-> num. , <= ]  [ F-> num. , == ]  [ F-> num. , > ]  [ F-> num. , >= ]  
+I102:
+[ F-> id. , ) ]  [ K-> id. , ) ]  [ F-> id. , + ]  [ F-> id. , - ]  [ F-> id. , * ]  [ F-> id. , / ]  [ K-> id. , || ]  [ K-> id. , && ]  [ F-> id. , != ]  [ F-> id. , < ]  [ F-> id. , <= ]  [ F-> id. , == ]  [ F-> id. , > ]  [ F-> id. , >= ]  
+I103:
+[ K-> !G. , ; ]  [ K-> !G. , || ]  [ K-> !G. , && ]  [ G-> G.||MJ , ; ]  [ G-> G.||MJ , || ]  [ G-> G.||MJ , && ]  
+I104:
+[ G-> J. , ; ]  [ G-> J. , || ]  [ G-> J. , && ]  [ J-> J.&&MK , ; ]  [ J-> J.&&MK , || ]  [ J-> J.&&MK , && ]  
+I105:
+[ V-> NelseM.{Y} , bool ]  [ V-> NelseM.{Y} , char ]  [ V-> NelseM.{Y} , for ]  [ V-> NelseM.{Y} , id ]  [ V-> NelseM.{Y} , if ]  [ V-> NelseM.{Y} , int ]  [ V-> NelseM.{Y} , while ]  [ V-> NelseM.{Y} , } ]  
+I106:
+[ L-> whileM(G.)M{Y} , bool ]  [ L-> whileM(G.)M{Y} , char ]  [ L-> whileM(G.)M{Y} , for ]  [ L-> whileM(G.)M{Y} , id ]  [ L-> whileM(G.)M{Y} , if ]  [ L-> whileM(G.)M{Y} , int ]  [ L-> whileM(G.)M{Y} , while ]  [ L-> whileM(G.)M{Y} , } ]  [ G-> G.||MJ , ) ]  [ G-> G.||MJ , || ]  
+I107:
+[ L-> for(RA.;MG;A)M{Y} , bool ]  [ L-> for(RA.;MG;A)M{Y} , char ]  [ L-> for(RA.;MG;A)M{Y} , for ]  [ L-> for(RA.;MG;A)M{Y} , id ]  [ L-> for(RA.;MG;A)M{Y} , if ]  [ L-> for(RA.;MG;A)M{Y} , int ]  [ L-> for(RA.;MG;A)M{Y} , while ]  [ L-> for(RA.;MG;A)M{Y} , } ]  
+I108:
+[ U-> if(G).M{Y} , bool ]  [ U-> if(G).M{Y} , else ]  [ U-> if(G).M{Y} , char ]  [ U-> if(G).M{Y} , for ]  [ U-> if(G).M{Y} , id ]  [ U-> if(G).M{Y} , if ]  [ U-> if(G).M{Y} , int ]  [ U-> if(G).M{Y} , while ]  [ U-> if(G).M{Y} , } ]  [ M-> .# , { ]  
+I109:
+[ G-> G||.MJ , ) ]  [ G-> G||.MJ , || ]  [ M-> .# , ! ]  [ M-> .# , ( ]  [ M-> .# , false ]  [ M-> .# , id ]  [ M-> .# , num ]  [ M-> .# , true ]  
+I110:
+[ J-> J&&.MK , ) ]  [ J-> J&&.MK , || ]  [ J-> J&&.MK , && ]  [ M-> .# , ! ]  [ M-> .# , ( ]  [ M-> .# , false ]  [ M-> .# , id ]  [ M-> .# , num ]  [ M-> .# , true ]  
+I111:
+[ K-> (G.) , ) ]  [ K-> (G.) , || ]  [ K-> (G.) , && ]  [ G-> G.||MJ , ) ]  [ G-> G.||MJ , || ]  
+I112:
+[ K-> !G. , ) ]  [ K-> !G. , || ]  [ K-> !G. , && ]  [ G-> G.||MJ , ) ]  [ G-> G.||MJ , || ]  [ G-> G.||MJ , && ]  
+I113:
+[ G-> J. , ) ]  [ G-> J. , || ]  [ G-> J. , && ]  [ J-> J.&&MK , ) ]  [ J-> J.&&MK , || ]  [ J-> J.&&MK , && ]  
+I114:
+[ K-> EH.E , ) ]  [ K-> EH.E , || ]  [ K-> EH.E , && ]  [ E-> .E+I , ) ]  [ E-> .E-I , ) ]  [ E-> .I , ) ]  [ E-> .E+I , || ]  [ E-> .E-I , || ]  [ E-> .I , || ]  [ E-> .E+I , && ]  [ E-> .E-I , && ]  [ E-> .I , && ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , ) ]  [ I-> .I/F , ) ]  [ I-> .F , ) ]  [ I-> .I*F , || ]  [ I-> .I/F , || ]  [ I-> .F , || ]  [ I-> .I*F , && ]  [ I-> .I/F , && ]  [ I-> .F , && ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , ) ]  [ F-> .num , ) ]  [ F-> .id , ) ]  [ F-> .(E) , || ]  [ F-> .num , || ]  [ F-> .id , || ]  [ F-> .(E) , && ]  [ F-> .num , && ]  [ F-> .id , && ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I115:
+[ E-> E+.I , , ]  [ E-> E+.I , ; ]  [ E-> E+.I , + ]  [ E-> E+.I , - ]  [ E-> E+.I , != ]  [ E-> E+.I , < ]  [ E-> E+.I , <= ]  [ E-> E+.I , == ]  [ E-> E+.I , > ]  [ E-> E+.I , >= ]  [ I-> .I*F , , ]  [ I-> .I/F , , ]  [ I-> .F , , ]  [ I-> .I*F , ; ]  [ I-> .I/F , ; ]  [ I-> .F , ; ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , , ]  [ F-> .num , , ]  [ F-> .id , , ]  [ F-> .(E) , ; ]  [ F-> .num , ; ]  [ F-> .id , ; ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I116:
+[ E-> E-.I , , ]  [ E-> E-.I , ; ]  [ E-> E-.I , + ]  [ E-> E-.I , - ]  [ E-> E-.I , != ]  [ E-> E-.I , < ]  [ E-> E-.I , <= ]  [ E-> E-.I , == ]  [ E-> E-.I , > ]  [ E-> E-.I , >= ]  [ I-> .I*F , , ]  [ I-> .I/F , , ]  [ I-> .F , , ]  [ I-> .I*F , ; ]  [ I-> .I/F , ; ]  [ I-> .F , ; ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , , ]  [ F-> .num , , ]  [ F-> .id , , ]  [ F-> .(E) , ; ]  [ F-> .num , ; ]  [ F-> .id , ; ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I117:
+[ K-> EH.E , , ]  [ K-> EH.E , ; ]  [ K-> EH.E , || ]  [ K-> EH.E , && ]  [ E-> .E+I , , ]  [ E-> .E-I , , ]  [ E-> .I , , ]  [ E-> .E+I , ; ]  [ E-> .E-I , ; ]  [ E-> .I , ; ]  [ E-> .E+I , || ]  [ E-> .E-I , || ]  [ E-> .I , || ]  [ E-> .E+I , && ]  [ E-> .E-I , && ]  [ E-> .I , && ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , , ]  [ I-> .I/F , , ]  [ I-> .F , , ]  [ I-> .I*F , ; ]  [ I-> .I/F , ; ]  [ I-> .F , ; ]  [ I-> .I*F , || ]  [ I-> .I/F , || ]  [ I-> .F , || ]  [ I-> .I*F , && ]  [ I-> .I/F , && ]  [ I-> .F , && ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , , ]  [ F-> .num , , ]  [ F-> .id , , ]  [ F-> .(E) , ; ]  [ F-> .num , ; ]  [ F-> .id , ; ]  [ F-> .(E) , || ]  [ F-> .num , || ]  [ F-> .id , || ]  [ F-> .(E) , && ]  [ F-> .num , && ]  [ F-> .id , && ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I118:
+[ G-> G||.MJ , , ]  [ G-> G||.MJ , ; ]  [ G-> G||.MJ , || ]  [ M-> .# , ! ]  [ M-> .# , ( ]  [ M-> .# , false ]  [ M-> .# , id ]  [ M-> .# , num ]  [ M-> .# , true ]  
+I119:
+[ J-> J&&.MK , , ]  [ J-> J&&.MK , ; ]  [ J-> J&&.MK , || ]  [ J-> J&&.MK , && ]  [ M-> .# , ! ]  [ M-> .# , ( ]  [ M-> .# , false ]  [ M-> .# , id ]  [ M-> .# , num ]  [ M-> .# , true ]  
+I120:
+[ I-> I*.F , , ]  [ I-> I*.F , ; ]  [ I-> I*.F , + ]  [ I-> I*.F , - ]  [ I-> I*.F , * ]  [ I-> I*.F , / ]  [ I-> I*.F , != ]  [ I-> I*.F , < ]  [ I-> I*.F , <= ]  [ I-> I*.F , == ]  [ I-> I*.F , > ]  [ I-> I*.F , >= ]  [ F-> .(E) , , ]  [ F-> .num , , ]  [ F-> .id , , ]  [ F-> .(E) , ; ]  [ F-> .num , ; ]  [ F-> .id , ; ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  
+I121:
+[ I-> I/.F , , ]  [ I-> I/.F , ; ]  [ I-> I/.F , + ]  [ I-> I/.F , - ]  [ I-> I/.F , * ]  [ I-> I/.F , / ]  [ I-> I/.F , != ]  [ I-> I/.F , < ]  [ I-> I/.F , <= ]  [ I-> I/.F , == ]  [ I-> I/.F , > ]  [ I-> I/.F , >= ]  [ F-> .(E) , , ]  [ F-> .num , , ]  [ F-> .id , , ]  [ F-> .(E) , ; ]  [ F-> .num , ; ]  [ F-> .id , ; ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  
+I122:
+[ F-> (E.) , , ]  [ F-> (E.) , ; ]  [ F-> (E.) , + ]  [ F-> (E.) , - ]  [ F-> (E.) , * ]  [ F-> (E.) , / ]  [ F-> (E.) , != ]  [ F-> (E.) , < ]  [ F-> (E.) , <= ]  [ F-> (E.) , == ]  [ F-> (E.) , > ]  [ F-> (E.) , >= ]  [ E-> E.+I , ) ]  [ E-> E.-I , ) ]  [ E-> E.+I , + ]  [ E-> E.-I , + ]  [ E-> E.+I , - ]  [ E-> E.-I , - ]  [ K-> E.HE , ) ]  [ K-> E.HE , || ]  [ K-> E.HE , && ]  [ E-> E.+I , != ]  [ E-> E.+I , < ]  [ E-> E.+I , <= ]  [ E-> E.+I , == ]  [ E-> E.+I , > ]  [ E-> E.+I , >= ]  [ E-> E.-I , != ]  [ E-> E.-I , < ]  [ E-> E.-I , <= ]  [ E-> E.-I , == ]  [ E-> E.-I , > ]  [ E-> E.-I , >= ]  [ H-> .== , ( ]  [ H-> .== , id ]  [ H-> .== , num ]  [ H-> .> , ( ]  [ H-> .> , id ]  [ H-> .> , num ]  [ H-> .< , ( ]  [ H-> .< , id ]  [ H-> .< , num ]  [ H-> .>= , ( ]  [ H-> .>= , id ]  [ H-> .>= , num ]  [ H-> .<= , ( ]  [ H-> .<= , id ]  [ H-> .<= , num ]  [ H-> .!= , ( ]  [ H-> .!= , id ]  [ H-> .!= , num ]  
+I123:
+[ K-> (G.) , , ]  [ K-> (G.) , ; ]  [ K-> (G.) , || ]  [ K-> (G.) , && ]  [ G-> G.||MJ , ) ]  [ G-> G.||MJ , || ]  
+I124:
+[ K-> !G. , , ]  [ K-> !G. , ; ]  [ K-> !G. , || ]  [ K-> !G. , && ]  [ G-> G.||MJ , , ]  [ G-> G.||MJ , ; ]  [ G-> G.||MJ , || ]  [ G-> G.||MJ , && ]  
+I125:
+[ G-> J. , , ]  [ G-> J. , ; ]  [ G-> J. , || ]  [ G-> J. , && ]  [ J-> J.&&MK , , ]  [ J-> J.&&MK , ; ]  [ J-> J.&&MK , || ]  [ J-> J.&&MK , && ]  
+I126:
+[ E-> E+I. , ; ]  [ E-> E+I. , + ]  [ E-> E+I. , - ]  [ E-> E+I. , != ]  [ E-> E+I. , < ]  [ E-> E+I. , <= ]  [ E-> E+I. , == ]  [ E-> E+I. , > ]  [ E-> E+I. , >= ]  [ I-> I.*F , ; ]  [ I-> I./F , ; ]  [ I-> I.*F , + ]  [ I-> I./F , + ]  [ I-> I.*F , - ]  [ I-> I./F , - ]  [ I-> I.*F , != ]  [ I-> I./F , != ]  [ I-> I.*F , < ]  [ I-> I./F , < ]  [ I-> I.*F , <= ]  [ I-> I./F , <= ]  [ I-> I.*F , == ]  [ I-> I./F , == ]  [ I-> I.*F , > ]  [ I-> I./F , > ]  [ I-> I.*F , >= ]  [ I-> I./F , >= ]  [ I-> I.*F , * ]  [ I-> I./F , * ]  [ I-> I.*F , / ]  [ I-> I./F , / ]  
+I127:
+[ E-> E-I. , ; ]  [ E-> E-I. , + ]  [ E-> E-I. , - ]  [ E-> E-I. , != ]  [ E-> E-I. , < ]  [ E-> E-I. , <= ]  [ E-> E-I. , == ]  [ E-> E-I. , > ]  [ E-> E-I. , >= ]  [ I-> I.*F , ; ]  [ I-> I./F , ; ]  [ I-> I.*F , + ]  [ I-> I./F , + ]  [ I-> I.*F , - ]  [ I-> I./F , - ]  [ I-> I.*F , != ]  [ I-> I./F , != ]  [ I-> I.*F , < ]  [ I-> I./F , < ]  [ I-> I.*F , <= ]  [ I-> I./F , <= ]  [ I-> I.*F , == ]  [ I-> I./F , == ]  [ I-> I.*F , > ]  [ I-> I./F , > ]  [ I-> I.*F , >= ]  [ I-> I./F , >= ]  [ I-> I.*F , * ]  [ I-> I./F , * ]  [ I-> I.*F , / ]  [ I-> I./F , / ]  
+I128:
+[ F-> id. , ; ]  [ F-> id. , || ]  [ F-> id. , && ]  [ F-> id. , + ]  [ F-> id. , - ]  [ F-> id. , * ]  [ F-> id. , / ]  
+I129:
+[ K-> EHE. , ; ]  [ K-> EHE. , || ]  [ K-> EHE. , && ]  [ E-> E.+I , ; ]  [ E-> E.-I , ; ]  [ E-> E.+I , || ]  [ E-> E.-I , || ]  [ E-> E.+I , && ]  [ E-> E.-I , && ]  [ E-> E.+I , + ]  [ E-> E.-I , + ]  [ E-> E.+I , - ]  [ E-> E.-I , - ]  
+I130:
+[ E-> I. , ; ]  [ E-> I. , || ]  [ E-> I. , && ]  [ E-> I. , + ]  [ E-> I. , - ]  [ I-> I.*F , ; ]  [ I-> I./F , ; ]  [ I-> I.*F , || ]  [ I-> I./F , || ]  [ I-> I.*F , && ]  [ I-> I./F , && ]  [ I-> I.*F , + ]  [ I-> I./F , + ]  [ I-> I.*F , - ]  [ I-> I./F , - ]  [ I-> I.*F , * ]  [ I-> I./F , * ]  [ I-> I.*F , / ]  [ I-> I./F , / ]  
+I131:
+[ I-> F. , ; ]  [ I-> F. , || ]  [ I-> F. , && ]  [ I-> F. , + ]  [ I-> F. , - ]  [ I-> F. , * ]  [ I-> F. , / ]  
+I132:
+[ F-> (.E) , ; ]  [ F-> (.E) , || ]  [ F-> (.E) , && ]  [ F-> (.E) , + ]  [ F-> (.E) , - ]  [ F-> (.E) , * ]  [ F-> (.E) , / ]  [ E-> .E+I , ) ]  [ E-> .E-I , ) ]  [ E-> .I , ) ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , ) ]  [ I-> .I/F , ) ]  [ I-> .F , ) ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , ) ]  [ F-> .num , ) ]  [ F-> .id , ) ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I133:
+[ F-> num. , ; ]  [ F-> num. , || ]  [ F-> num. , && ]  [ F-> num. , + ]  [ F-> num. , - ]  [ F-> num. , * ]  [ F-> num. , / ]  
+I134:
+[ G-> G||M.J , ; ]  [ G-> G||M.J , || ]  [ J-> .J&&MK , ; ]  [ J-> .K , ; ]  [ J-> .J&&MK , || ]  [ J-> .K , || ]  [ J-> .J&&MK , && ]  [ J-> .K , && ]  [ K-> .(G) , ; ]  [ K-> .!G , ; ]  [ K-> .true , ; ]  [ K-> .false , ; ]  [ K-> .EHE , ; ]  [ K-> .id , ; ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I135:
+[ J-> J&&M.K , ; ]  [ J-> J&&M.K , || ]  [ J-> J&&M.K , && ]  [ K-> .(G) , ; ]  [ K-> .!G , ; ]  [ K-> .true , ; ]  [ K-> .false , ; ]  [ K-> .EHE , ; ]  [ K-> .id , ; ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I136:
+[ I-> I*F. , ; ]  [ I-> I*F. , + ]  [ I-> I*F. , - ]  [ I-> I*F. , * ]  [ I-> I*F. , / ]  [ I-> I*F. , != ]  [ I-> I*F. , < ]  [ I-> I*F. , <= ]  [ I-> I*F. , == ]  [ I-> I*F. , > ]  [ I-> I*F. , >= ]  
+I137:
+[ I-> I/F. , ; ]  [ I-> I/F. , + ]  [ I-> I/F. , - ]  [ I-> I/F. , * ]  [ I-> I/F. , / ]  [ I-> I/F. , != ]  [ I-> I/F. , < ]  [ I-> I/F. , <= ]  [ I-> I/F. , == ]  [ I-> I/F. , > ]  [ I-> I/F. , >= ]  
+I138:
+[ F-> (E). , ; ]  [ F-> (E). , + ]  [ F-> (E). , - ]  [ F-> (E). , * ]  [ F-> (E). , / ]  [ F-> (E). , != ]  [ F-> (E). , < ]  [ F-> (E). , <= ]  [ F-> (E). , == ]  [ F-> (E). , > ]  [ F-> (E). , >= ]  
+I139:
+[ E-> E+.I , ) ]  [ E-> E+.I , + ]  [ E-> E+.I , - ]  [ E-> E+.I , != ]  [ E-> E+.I , < ]  [ E-> E+.I , <= ]  [ E-> E+.I , == ]  [ E-> E+.I , > ]  [ E-> E+.I , >= ]  [ I-> .I*F , ) ]  [ I-> .I/F , ) ]  [ I-> .F , ) ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , ) ]  [ F-> .num , ) ]  [ F-> .id , ) ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I140:
+[ E-> E-.I , ) ]  [ E-> E-.I , + ]  [ E-> E-.I , - ]  [ E-> E-.I , != ]  [ E-> E-.I , < ]  [ E-> E-.I , <= ]  [ E-> E-.I , == ]  [ E-> E-.I , > ]  [ E-> E-.I , >= ]  [ I-> .I*F , ) ]  [ I-> .I/F , ) ]  [ I-> .F , ) ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , ) ]  [ F-> .num , ) ]  [ F-> .id , ) ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I141:
+[ K-> (G). , ; ]  [ K-> (G). , || ]  [ K-> (G). , && ]  
+I142:
+[ I-> I*.F , ) ]  [ I-> I*.F , + ]  [ I-> I*.F , - ]  [ I-> I*.F , * ]  [ I-> I*.F , / ]  [ I-> I*.F , != ]  [ I-> I*.F , < ]  [ I-> I*.F , <= ]  [ I-> I*.F , == ]  [ I-> I*.F , > ]  [ I-> I*.F , >= ]  [ F-> .(E) , ) ]  [ F-> .num , ) ]  [ F-> .id , ) ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  
+I143:
+[ I-> I/.F , ) ]  [ I-> I/.F , + ]  [ I-> I/.F , - ]  [ I-> I/.F , * ]  [ I-> I/.F , / ]  [ I-> I/.F , != ]  [ I-> I/.F , < ]  [ I-> I/.F , <= ]  [ I-> I/.F , == ]  [ I-> I/.F , > ]  [ I-> I/.F , >= ]  [ F-> .(E) , ) ]  [ F-> .num , ) ]  [ F-> .id , ) ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  
+I144:
+[ F-> (E.) , ) ]  [ F-> (E.) , + ]  [ F-> (E.) , - ]  [ F-> (E.) , * ]  [ F-> (E.) , / ]  [ F-> (E.) , != ]  [ F-> (E.) , < ]  [ F-> (E.) , <= ]  [ F-> (E.) , == ]  [ F-> (E.) , > ]  [ F-> (E.) , >= ]  [ E-> E.+I , ) ]  [ E-> E.-I , ) ]  [ E-> E.+I , + ]  [ E-> E.-I , + ]  [ E-> E.+I , - ]  [ E-> E.-I , - ]  [ K-> E.HE , ) ]  [ K-> E.HE , || ]  [ K-> E.HE , && ]  [ E-> E.+I , != ]  [ E-> E.+I , < ]  [ E-> E.+I , <= ]  [ E-> E.+I , == ]  [ E-> E.+I , > ]  [ E-> E.+I , >= ]  [ E-> E.-I , != ]  [ E-> E.-I , < ]  [ E-> E.-I , <= ]  [ E-> E.-I , == ]  [ E-> E.-I , > ]  [ E-> E.-I , >= ]  [ H-> .== , ( ]  [ H-> .== , id ]  [ H-> .== , num ]  [ H-> .> , ( ]  [ H-> .> , id ]  [ H-> .> , num ]  [ H-> .< , ( ]  [ H-> .< , id ]  [ H-> .< , num ]  [ H-> .>= , ( ]  [ H-> .>= , id ]  [ H-> .>= , num ]  [ H-> .<= , ( ]  [ H-> .<= , id ]  [ H-> .<= , num ]  [ H-> .!= , ( ]  [ H-> .!= , id ]  [ H-> .!= , num ]  
+I145:
+[ G-> G||.MJ , ; ]  [ G-> G||.MJ , || ]  [ G-> G||.MJ , && ]  [ M-> .# , ! ]  [ M-> .# , ( ]  [ M-> .# , false ]  [ M-> .# , id ]  [ M-> .# , num ]  [ M-> .# , true ]  
+I146:
+[ V-> NelseM{.Y} , bool ]  [ V-> NelseM{.Y} , char ]  [ V-> NelseM{.Y} , for ]  [ V-> NelseM{.Y} , id ]  [ V-> NelseM{.Y} , if ]  [ V-> NelseM{.Y} , int ]  [ V-> NelseM{.Y} , while ]  [ V-> NelseM{.Y} , } ]  [ Y-> .OY , } ]  [ Y-> .# , } ]  [ O-> .D; , bool ]  [ O-> .D; , char ]  [ O-> .D; , for ]  [ O-> .D; , id ]  [ O-> .D; , if ]  [ O-> .D; , int ]  [ O-> .D; , while ]  [ O-> .D; , } ]  [ O-> .C , bool ]  [ O-> .C , char ]  [ O-> .C , for ]  [ O-> .C , id ]  [ O-> .C , if ]  [ O-> .C , int ]  [ O-> .C , while ]  [ O-> .C , } ]  [ O-> .A; , bool ]  [ O-> .A; , char ]  [ O-> .A; , for ]  [ O-> .A; , id ]  [ O-> .A; , if ]  [ O-> .A; , int ]  [ O-> .A; , while ]  [ O-> .A; , } ]  [ D-> .TP , ; ]  [ C-> .B , bool ]  [ C-> .L , bool ]  [ C-> .B , char ]  [ C-> .L , char ]  [ C-> .B , for ]  [ C-> .L , for ]  [ C-> .B , id ]  [ C-> .L , id ]  [ C-> .B , if ]  [ C-> .L , if ]  [ C-> .B , int ]  [ C-> .L , int ]  [ C-> .B , while ]  [ C-> .L , while ]  [ C-> .B , } ]  [ C-> .L , } ]  [ A-> .id=E , ; ]  [ A-> .id=G , ; ]  [ A-> .id=true , ; ]  [ A-> .id=false , ; ]  [ A-> .id++ , ; ]  [ A-> .id-- , ; ]  [ A-> .id=character , ; ]  [ T-> .int , id ]  [ T-> .char , id ]  [ T-> .bool , id ]  [ B-> .UV , bool ]  [ L-> .whileM(G)M{Y} , bool ]  [ L-> .for(RA;MG;A)M{Y} , bool ]  [ B-> .UV , char ]  [ L-> .whileM(G)M{Y} , char ]  [ L-> .for(RA;MG;A)M{Y} , char ]  [ B-> .UV , for ]  [ L-> .whileM(G)M{Y} , for ]  [ L-> .for(RA;MG;A)M{Y} , for ]  [ B-> .UV , id ]  [ L-> .whileM(G)M{Y} , id ]  [ L-> .for(RA;MG;A)M{Y} , id ]  [ B-> .UV , if ]  [ L-> .whileM(G)M{Y} , if ]  [ L-> .for(RA;MG;A)M{Y} , if ]  [ B-> .UV , int ]  [ L-> .whileM(G)M{Y} , int ]  [ L-> .for(RA;MG;A)M{Y} , int ]  [ B-> .UV , while ]  [ L-> .whileM(G)M{Y} , while ]  [ L-> .for(RA;MG;A)M{Y} , while ]  [ B-> .UV , } ]  [ L-> .whileM(G)M{Y} , } ]  [ L-> .for(RA;MG;A)M{Y} , } ]  [ U-> .if(G)M{Y} , bool ]  [ U-> .if(G)M{Y} , else ]  [ U-> .if(G)M{Y} , char ]  [ U-> .if(G)M{Y} , for ]  [ U-> .if(G)M{Y} , id ]  [ U-> .if(G)M{Y} , if ]  [ U-> .if(G)M{Y} , int ]  [ U-> .if(G)M{Y} , while ]  [ U-> .if(G)M{Y} , } ]  
+I147:
+[ L-> whileM(G).M{Y} , bool ]  [ L-> whileM(G).M{Y} , char ]  [ L-> whileM(G).M{Y} , for ]  [ L-> whileM(G).M{Y} , id ]  [ L-> whileM(G).M{Y} , if ]  [ L-> whileM(G).M{Y} , int ]  [ L-> whileM(G).M{Y} , while ]  [ L-> whileM(G).M{Y} , } ]  [ M-> .# , { ]  
+I148:
+[ L-> for(RA;.MG;A)M{Y} , bool ]  [ L-> for(RA;.MG;A)M{Y} , char ]  [ L-> for(RA;.MG;A)M{Y} , for ]  [ L-> for(RA;.MG;A)M{Y} , id ]  [ L-> for(RA;.MG;A)M{Y} , if ]  [ L-> for(RA;.MG;A)M{Y} , int ]  [ L-> for(RA;.MG;A)M{Y} , while ]  [ L-> for(RA;.MG;A)M{Y} , } ]  [ M-> .# , ! ]  [ M-> .# , ( ]  [ M-> .# , false ]  [ M-> .# , id ]  [ M-> .# , num ]  [ M-> .# , true ]  
+I149:
+[ U-> if(G)M.{Y} , bool ]  [ U-> if(G)M.{Y} , else ]  [ U-> if(G)M.{Y} , char ]  [ U-> if(G)M.{Y} , for ]  [ U-> if(G)M.{Y} , id ]  [ U-> if(G)M.{Y} , if ]  [ U-> if(G)M.{Y} , int ]  [ U-> if(G)M.{Y} , while ]  [ U-> if(G)M.{Y} , } ]  
+I150:
+[ G-> G||M.J , ) ]  [ G-> G||M.J , || ]  [ J-> .J&&MK , ) ]  [ J-> .K , ) ]  [ J-> .J&&MK , || ]  [ J-> .K , || ]  [ J-> .J&&MK , && ]  [ J-> .K , && ]  [ K-> .(G) , ) ]  [ K-> .!G , ) ]  [ K-> .true , ) ]  [ K-> .false , ) ]  [ K-> .EHE , ) ]  [ K-> .id , ) ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I151:
+[ J-> J&&M.K , ) ]  [ J-> J&&M.K , || ]  [ J-> J&&M.K , && ]  [ K-> .(G) , ) ]  [ K-> .!G , ) ]  [ K-> .true , ) ]  [ K-> .false , ) ]  [ K-> .EHE , ) ]  [ K-> .id , ) ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I152:
+[ K-> (G). , ) ]  [ K-> (G). , || ]  [ K-> (G). , && ]  
+I153:
+[ G-> G||.MJ , ) ]  [ G-> G||.MJ , || ]  [ G-> G||.MJ , && ]  [ M-> .# , ! ]  [ M-> .# , ( ]  [ M-> .# , false ]  [ M-> .# , id ]  [ M-> .# , num ]  [ M-> .# , true ]  
+I154:
+[ F-> id. , ) ]  [ F-> id. , || ]  [ F-> id. , && ]  [ F-> id. , + ]  [ F-> id. , - ]  [ F-> id. , * ]  [ F-> id. , / ]  
+I155:
+[ K-> EHE. , ) ]  [ K-> EHE. , || ]  [ K-> EHE. , && ]  [ E-> E.+I , ) ]  [ E-> E.-I , ) ]  [ E-> E.+I , || ]  [ E-> E.-I , || ]  [ E-> E.+I , && ]  [ E-> E.-I , && ]  [ E-> E.+I , + ]  [ E-> E.-I , + ]  [ E-> E.+I , - ]  [ E-> E.-I , - ]  
+I156:
+[ E-> I. , ) ]  [ E-> I. , || ]  [ E-> I. , && ]  [ E-> I. , + ]  [ E-> I. , - ]  [ I-> I.*F , ) ]  [ I-> I./F , ) ]  [ I-> I.*F , || ]  [ I-> I./F , || ]  [ I-> I.*F , && ]  [ I-> I./F , && ]  [ I-> I.*F , + ]  [ I-> I./F , + ]  [ I-> I.*F , - ]  [ I-> I./F , - ]  [ I-> I.*F , * ]  [ I-> I./F , * ]  [ I-> I.*F , / ]  [ I-> I./F , / ]  
+I157:
+[ I-> F. , ) ]  [ I-> F. , || ]  [ I-> F. , && ]  [ I-> F. , + ]  [ I-> F. , - ]  [ I-> F. , * ]  [ I-> F. , / ]  
+I158:
+[ F-> (.E) , ) ]  [ F-> (.E) , || ]  [ F-> (.E) , && ]  [ F-> (.E) , + ]  [ F-> (.E) , - ]  [ F-> (.E) , * ]  [ F-> (.E) , / ]  [ E-> .E+I , ) ]  [ E-> .E-I , ) ]  [ E-> .I , ) ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , ) ]  [ I-> .I/F , ) ]  [ I-> .F , ) ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , ) ]  [ F-> .num , ) ]  [ F-> .id , ) ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I159:
+[ F-> num. , ) ]  [ F-> num. , || ]  [ F-> num. , && ]  [ F-> num. , + ]  [ F-> num. , - ]  [ F-> num. , * ]  [ F-> num. , / ]  
+I160:
+[ E-> E+I. , , ]  [ E-> E+I. , ; ]  [ E-> E+I. , + ]  [ E-> E+I. , - ]  [ E-> E+I. , != ]  [ E-> E+I. , < ]  [ E-> E+I. , <= ]  [ E-> E+I. , == ]  [ E-> E+I. , > ]  [ E-> E+I. , >= ]  [ I-> I.*F , , ]  [ I-> I./F , , ]  [ I-> I.*F , ; ]  [ I-> I./F , ; ]  [ I-> I.*F , + ]  [ I-> I./F , + ]  [ I-> I.*F , - ]  [ I-> I./F , - ]  [ I-> I.*F , != ]  [ I-> I./F , != ]  [ I-> I.*F , < ]  [ I-> I./F , < ]  [ I-> I.*F , <= ]  [ I-> I./F , <= ]  [ I-> I.*F , == ]  [ I-> I./F , == ]  [ I-> I.*F , > ]  [ I-> I./F , > ]  [ I-> I.*F , >= ]  [ I-> I./F , >= ]  [ I-> I.*F , * ]  [ I-> I./F , * ]  [ I-> I.*F , / ]  [ I-> I./F , / ]  
+I161:
+[ E-> E-I. , , ]  [ E-> E-I. , ; ]  [ E-> E-I. , + ]  [ E-> E-I. , - ]  [ E-> E-I. , != ]  [ E-> E-I. , < ]  [ E-> E-I. , <= ]  [ E-> E-I. , == ]  [ E-> E-I. , > ]  [ E-> E-I. , >= ]  [ I-> I.*F , , ]  [ I-> I./F , , ]  [ I-> I.*F , ; ]  [ I-> I./F , ; ]  [ I-> I.*F , + ]  [ I-> I./F , + ]  [ I-> I.*F , - ]  [ I-> I./F , - ]  [ I-> I.*F , != ]  [ I-> I./F , != ]  [ I-> I.*F , < ]  [ I-> I./F , < ]  [ I-> I.*F , <= ]  [ I-> I./F , <= ]  [ I-> I.*F , == ]  [ I-> I./F , == ]  [ I-> I.*F , > ]  [ I-> I./F , > ]  [ I-> I.*F , >= ]  [ I-> I./F , >= ]  [ I-> I.*F , * ]  [ I-> I./F , * ]  [ I-> I.*F , / ]  [ I-> I./F , / ]  
+I162:
+[ F-> id. , , ]  [ F-> id. , ; ]  [ F-> id. , || ]  [ F-> id. , && ]  [ F-> id. , + ]  [ F-> id. , - ]  [ F-> id. , * ]  [ F-> id. , / ]  
+I163:
+[ K-> EHE. , , ]  [ K-> EHE. , ; ]  [ K-> EHE. , || ]  [ K-> EHE. , && ]  [ E-> E.+I , , ]  [ E-> E.-I , , ]  [ E-> E.+I , ; ]  [ E-> E.-I , ; ]  [ E-> E.+I , || ]  [ E-> E.-I , || ]  [ E-> E.+I , && ]  [ E-> E.-I , && ]  [ E-> E.+I , + ]  [ E-> E.-I , + ]  [ E-> E.+I , - ]  [ E-> E.-I , - ]  
+I164:
+[ E-> I. , , ]  [ E-> I. , ; ]  [ E-> I. , || ]  [ E-> I. , && ]  [ E-> I. , + ]  [ E-> I. , - ]  [ I-> I.*F , , ]  [ I-> I./F , , ]  [ I-> I.*F , ; ]  [ I-> I./F , ; ]  [ I-> I.*F , || ]  [ I-> I./F , || ]  [ I-> I.*F , && ]  [ I-> I./F , && ]  [ I-> I.*F , + ]  [ I-> I./F , + ]  [ I-> I.*F , - ]  [ I-> I./F , - ]  [ I-> I.*F , * ]  [ I-> I./F , * ]  [ I-> I.*F , / ]  [ I-> I./F , / ]  
+I165:
+[ I-> F. , , ]  [ I-> F. , ; ]  [ I-> F. , || ]  [ I-> F. , && ]  [ I-> F. , + ]  [ I-> F. , - ]  [ I-> F. , * ]  [ I-> F. , / ]  
+I166:
+[ F-> (.E) , , ]  [ F-> (.E) , ; ]  [ F-> (.E) , || ]  [ F-> (.E) , && ]  [ F-> (.E) , + ]  [ F-> (.E) , - ]  [ F-> (.E) , * ]  [ F-> (.E) , / ]  [ E-> .E+I , ) ]  [ E-> .E-I , ) ]  [ E-> .I , ) ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , ) ]  [ I-> .I/F , ) ]  [ I-> .F , ) ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , ) ]  [ F-> .num , ) ]  [ F-> .id , ) ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I167:
+[ F-> num. , , ]  [ F-> num. , ; ]  [ F-> num. , || ]  [ F-> num. , && ]  [ F-> num. , + ]  [ F-> num. , - ]  [ F-> num. , * ]  [ F-> num. , / ]  
+I168:
+[ G-> G||M.J , , ]  [ G-> G||M.J , ; ]  [ G-> G||M.J , || ]  [ J-> .J&&MK , , ]  [ J-> .K , , ]  [ J-> .J&&MK , ; ]  [ J-> .K , ; ]  [ J-> .J&&MK , || ]  [ J-> .K , || ]  [ J-> .J&&MK , && ]  [ J-> .K , && ]  [ K-> .(G) , , ]  [ K-> .!G , , ]  [ K-> .true , , ]  [ K-> .false , , ]  [ K-> .EHE , , ]  [ K-> .id , , ]  [ K-> .(G) , ; ]  [ K-> .!G , ; ]  [ K-> .true , ; ]  [ K-> .false , ; ]  [ K-> .EHE , ; ]  [ K-> .id , ; ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I169:
+[ J-> J&&M.K , , ]  [ J-> J&&M.K , ; ]  [ J-> J&&M.K , || ]  [ J-> J&&M.K , && ]  [ K-> .(G) , , ]  [ K-> .!G , , ]  [ K-> .true , , ]  [ K-> .false , , ]  [ K-> .EHE , , ]  [ K-> .id , , ]  [ K-> .(G) , ; ]  [ K-> .!G , ; ]  [ K-> .true , ; ]  [ K-> .false , ; ]  [ K-> .EHE , ; ]  [ K-> .id , ; ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I170:
+[ I-> I*F. , , ]  [ I-> I*F. , ; ]  [ I-> I*F. , + ]  [ I-> I*F. , - ]  [ I-> I*F. , * ]  [ I-> I*F. , / ]  [ I-> I*F. , != ]  [ I-> I*F. , < ]  [ I-> I*F. , <= ]  [ I-> I*F. , == ]  [ I-> I*F. , > ]  [ I-> I*F. , >= ]  
+I171:
+[ I-> I/F. , , ]  [ I-> I/F. , ; ]  [ I-> I/F. , + ]  [ I-> I/F. , - ]  [ I-> I/F. , * ]  [ I-> I/F. , / ]  [ I-> I/F. , != ]  [ I-> I/F. , < ]  [ I-> I/F. , <= ]  [ I-> I/F. , == ]  [ I-> I/F. , > ]  [ I-> I/F. , >= ]  
+I172:
+[ F-> (E). , , ]  [ F-> (E). , ; ]  [ F-> (E). , + ]  [ F-> (E). , - ]  [ F-> (E). , * ]  [ F-> (E). , / ]  [ F-> (E). , != ]  [ F-> (E). , < ]  [ F-> (E). , <= ]  [ F-> (E). , == ]  [ F-> (E). , > ]  [ F-> (E). , >= ]  
+I173:
+[ K-> (G). , , ]  [ K-> (G). , ; ]  [ K-> (G). , || ]  [ K-> (G). , && ]  
+I174:
+[ G-> G||.MJ , , ]  [ G-> G||.MJ , ; ]  [ G-> G||.MJ , || ]  [ G-> G||.MJ , && ]  [ M-> .# , ! ]  [ M-> .# , ( ]  [ M-> .# , false ]  [ M-> .# , id ]  [ M-> .# , num ]  [ M-> .# , true ]  
+I175:
+[ E-> E+.I , ; ]  [ E-> E+.I , || ]  [ E-> E+.I , && ]  [ E-> E+.I , + ]  [ E-> E+.I , - ]  [ I-> .I*F , ; ]  [ I-> .I/F , ; ]  [ I-> .F , ; ]  [ I-> .I*F , || ]  [ I-> .I/F , || ]  [ I-> .F , || ]  [ I-> .I*F , && ]  [ I-> .I/F , && ]  [ I-> .F , && ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , ; ]  [ F-> .num , ; ]  [ F-> .id , ; ]  [ F-> .(E) , || ]  [ F-> .num , || ]  [ F-> .id , || ]  [ F-> .(E) , && ]  [ F-> .num , && ]  [ F-> .id , && ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I176:
+[ E-> E-.I , ; ]  [ E-> E-.I , || ]  [ E-> E-.I , && ]  [ E-> E-.I , + ]  [ E-> E-.I , - ]  [ I-> .I*F , ; ]  [ I-> .I/F , ; ]  [ I-> .F , ; ]  [ I-> .I*F , || ]  [ I-> .I/F , || ]  [ I-> .F , || ]  [ I-> .I*F , && ]  [ I-> .I/F , && ]  [ I-> .F , && ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , ; ]  [ F-> .num , ; ]  [ F-> .id , ; ]  [ F-> .(E) , || ]  [ F-> .num , || ]  [ F-> .id , || ]  [ F-> .(E) , && ]  [ F-> .num , && ]  [ F-> .id , && ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I177:
+[ I-> I*.F , ; ]  [ I-> I*.F , || ]  [ I-> I*.F , && ]  [ I-> I*.F , + ]  [ I-> I*.F , - ]  [ I-> I*.F , * ]  [ I-> I*.F , / ]  [ F-> .(E) , ; ]  [ F-> .num , ; ]  [ F-> .id , ; ]  [ F-> .(E) , || ]  [ F-> .num , || ]  [ F-> .id , || ]  [ F-> .(E) , && ]  [ F-> .num , && ]  [ F-> .id , && ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I178:
+[ I-> I/.F , ; ]  [ I-> I/.F , || ]  [ I-> I/.F , && ]  [ I-> I/.F , + ]  [ I-> I/.F , - ]  [ I-> I/.F , * ]  [ I-> I/.F , / ]  [ F-> .(E) , ; ]  [ F-> .num , ; ]  [ F-> .id , ; ]  [ F-> .(E) , || ]  [ F-> .num , || ]  [ F-> .id , || ]  [ F-> .(E) , && ]  [ F-> .num , && ]  [ F-> .id , && ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I179:
+[ F-> (E.) , ; ]  [ F-> (E.) , || ]  [ F-> (E.) , && ]  [ F-> (E.) , + ]  [ F-> (E.) , - ]  [ F-> (E.) , * ]  [ F-> (E.) , / ]  [ E-> E.+I , ) ]  [ E-> E.-I , ) ]  [ E-> E.+I , + ]  [ E-> E.-I , + ]  [ E-> E.+I , - ]  [ E-> E.-I , - ]  
+I180:
+[ G-> G||MJ. , ; ]  [ G-> G||MJ. , || ]  [ J-> J.&&MK , ; ]  [ J-> J.&&MK , || ]  [ J-> J.&&MK , && ]  
+I181:
+[ J-> J&&MK. , ; ]  [ J-> J&&MK. , || ]  [ J-> J&&MK. , && ]  
+I182:
+[ E-> E+I. , ) ]  [ E-> E+I. , + ]  [ E-> E+I. , - ]  [ E-> E+I. , != ]  [ E-> E+I. , < ]  [ E-> E+I. , <= ]  [ E-> E+I. , == ]  [ E-> E+I. , > ]  [ E-> E+I. , >= ]  [ I-> I.*F , ) ]  [ I-> I./F , ) ]  [ I-> I.*F , + ]  [ I-> I./F , + ]  [ I-> I.*F , - ]  [ I-> I./F , - ]  [ I-> I.*F , != ]  [ I-> I./F , != ]  [ I-> I.*F , < ]  [ I-> I./F , < ]  [ I-> I.*F , <= ]  [ I-> I./F , <= ]  [ I-> I.*F , == ]  [ I-> I./F , == ]  [ I-> I.*F , > ]  [ I-> I./F , > ]  [ I-> I.*F , >= ]  [ I-> I./F , >= ]  [ I-> I.*F , * ]  [ I-> I./F , * ]  [ I-> I.*F , / ]  [ I-> I./F , / ]  
+I183:
+[ E-> E-I. , ) ]  [ E-> E-I. , + ]  [ E-> E-I. , - ]  [ E-> E-I. , != ]  [ E-> E-I. , < ]  [ E-> E-I. , <= ]  [ E-> E-I. , == ]  [ E-> E-I. , > ]  [ E-> E-I. , >= ]  [ I-> I.*F , ) ]  [ I-> I./F , ) ]  [ I-> I.*F , + ]  [ I-> I./F , + ]  [ I-> I.*F , - ]  [ I-> I./F , - ]  [ I-> I.*F , != ]  [ I-> I./F , != ]  [ I-> I.*F , < ]  [ I-> I./F , < ]  [ I-> I.*F , <= ]  [ I-> I./F , <= ]  [ I-> I.*F , == ]  [ I-> I./F , == ]  [ I-> I.*F , > ]  [ I-> I./F , > ]  [ I-> I.*F , >= ]  [ I-> I./F , >= ]  [ I-> I.*F , * ]  [ I-> I./F , * ]  [ I-> I.*F , / ]  [ I-> I./F , / ]  
+I184:
+[ I-> I*F. , ) ]  [ I-> I*F. , + ]  [ I-> I*F. , - ]  [ I-> I*F. , * ]  [ I-> I*F. , / ]  [ I-> I*F. , != ]  [ I-> I*F. , < ]  [ I-> I*F. , <= ]  [ I-> I*F. , == ]  [ I-> I*F. , > ]  [ I-> I*F. , >= ]  
+I185:
+[ I-> I/F. , ) ]  [ I-> I/F. , + ]  [ I-> I/F. , - ]  [ I-> I/F. , * ]  [ I-> I/F. , / ]  [ I-> I/F. , != ]  [ I-> I/F. , < ]  [ I-> I/F. , <= ]  [ I-> I/F. , == ]  [ I-> I/F. , > ]  [ I-> I/F. , >= ]  
+I186:
+[ F-> (E). , ) ]  [ F-> (E). , + ]  [ F-> (E). , - ]  [ F-> (E). , * ]  [ F-> (E). , / ]  [ F-> (E). , != ]  [ F-> (E). , < ]  [ F-> (E). , <= ]  [ F-> (E). , == ]  [ F-> (E). , > ]  [ F-> (E). , >= ]  
+I187:
+[ G-> G||M.J , ; ]  [ G-> G||M.J , || ]  [ G-> G||M.J , && ]  [ J-> .J&&MK , ; ]  [ J-> .K , ; ]  [ J-> .J&&MK , || ]  [ J-> .K , || ]  [ J-> .J&&MK , && ]  [ J-> .K , && ]  [ K-> .(G) , ; ]  [ K-> .!G , ; ]  [ K-> .true , ; ]  [ K-> .false , ; ]  [ K-> .EHE , ; ]  [ K-> .id , ; ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I188:
+[ V-> NelseM{Y.} , bool ]  [ V-> NelseM{Y.} , char ]  [ V-> NelseM{Y.} , for ]  [ V-> NelseM{Y.} , id ]  [ V-> NelseM{Y.} , if ]  [ V-> NelseM{Y.} , int ]  [ V-> NelseM{Y.} , while ]  [ V-> NelseM{Y.} , } ]  
+I189:
+[ L-> whileM(G)M.{Y} , bool ]  [ L-> whileM(G)M.{Y} , char ]  [ L-> whileM(G)M.{Y} , for ]  [ L-> whileM(G)M.{Y} , id ]  [ L-> whileM(G)M.{Y} , if ]  [ L-> whileM(G)M.{Y} , int ]  [ L-> whileM(G)M.{Y} , while ]  [ L-> whileM(G)M.{Y} , } ]  
+I190:
+[ L-> for(RA;M.G;A)M{Y} , bool ]  [ L-> for(RA;M.G;A)M{Y} , char ]  [ L-> for(RA;M.G;A)M{Y} , for ]  [ L-> for(RA;M.G;A)M{Y} , id ]  [ L-> for(RA;M.G;A)M{Y} , if ]  [ L-> for(RA;M.G;A)M{Y} , int ]  [ L-> for(RA;M.G;A)M{Y} , while ]  [ L-> for(RA;M.G;A)M{Y} , } ]  [ G-> .G||MJ , ; ]  [ G-> .J , ; ]  [ G-> .G||MJ , || ]  [ G-> .J , || ]  [ J-> .J&&MK , ; ]  [ J-> .K , ; ]  [ J-> .J&&MK , || ]  [ J-> .K , || ]  [ J-> .J&&MK , && ]  [ J-> .K , && ]  [ K-> .(G) , ; ]  [ K-> .!G , ; ]  [ K-> .true , ; ]  [ K-> .false , ; ]  [ K-> .EHE , ; ]  [ K-> .id , ; ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I191:
+[ U-> if(G)M{.Y} , bool ]  [ U-> if(G)M{.Y} , else ]  [ U-> if(G)M{.Y} , char ]  [ U-> if(G)M{.Y} , for ]  [ U-> if(G)M{.Y} , id ]  [ U-> if(G)M{.Y} , if ]  [ U-> if(G)M{.Y} , int ]  [ U-> if(G)M{.Y} , while ]  [ U-> if(G)M{.Y} , } ]  [ Y-> .OY , } ]  [ Y-> .# , } ]  [ O-> .D; , bool ]  [ O-> .D; , char ]  [ O-> .D; , for ]  [ O-> .D; , id ]  [ O-> .D; , if ]  [ O-> .D; , int ]  [ O-> .D; , while ]  [ O-> .D; , } ]  [ O-> .C , bool ]  [ O-> .C , char ]  [ O-> .C , for ]  [ O-> .C , id ]  [ O-> .C , if ]  [ O-> .C , int ]  [ O-> .C , while ]  [ O-> .C , } ]  [ O-> .A; , bool ]  [ O-> .A; , char ]  [ O-> .A; , for ]  [ O-> .A; , id ]  [ O-> .A; , if ]  [ O-> .A; , int ]  [ O-> .A; , while ]  [ O-> .A; , } ]  [ D-> .TP , ; ]  [ C-> .B , bool ]  [ C-> .L , bool ]  [ C-> .B , char ]  [ C-> .L , char ]  [ C-> .B , for ]  [ C-> .L , for ]  [ C-> .B , id ]  [ C-> .L , id ]  [ C-> .B , if ]  [ C-> .L , if ]  [ C-> .B , int ]  [ C-> .L , int ]  [ C-> .B , while ]  [ C-> .L , while ]  [ C-> .B , } ]  [ C-> .L , } ]  [ A-> .id=E , ; ]  [ A-> .id=G , ; ]  [ A-> .id=true , ; ]  [ A-> .id=false , ; ]  [ A-> .id++ , ; ]  [ A-> .id-- , ; ]  [ A-> .id=character , ; ]  [ T-> .int , id ]  [ T-> .char , id ]  [ T-> .bool , id ]  [ B-> .UV , bool ]  [ L-> .whileM(G)M{Y} , bool ]  [ L-> .for(RA;MG;A)M{Y} , bool ]  [ B-> .UV , char ]  [ L-> .whileM(G)M{Y} , char ]  [ L-> .for(RA;MG;A)M{Y} , char ]  [ B-> .UV , for ]  [ L-> .whileM(G)M{Y} , for ]  [ L-> .for(RA;MG;A)M{Y} , for ]  [ B-> .UV , id ]  [ L-> .whileM(G)M{Y} , id ]  [ L-> .for(RA;MG;A)M{Y} , id ]  [ B-> .UV , if ]  [ L-> .whileM(G)M{Y} , if ]  [ L-> .for(RA;MG;A)M{Y} , if ]  [ B-> .UV , int ]  [ L-> .whileM(G)M{Y} , int ]  [ L-> .for(RA;MG;A)M{Y} , int ]  [ B-> .UV , while ]  [ L-> .whileM(G)M{Y} , while ]  [ L-> .for(RA;MG;A)M{Y} , while ]  [ B-> .UV , } ]  [ L-> .whileM(G)M{Y} , } ]  [ L-> .for(RA;MG;A)M{Y} , } ]  [ U-> .if(G)M{Y} , bool ]  [ U-> .if(G)M{Y} , else ]  [ U-> .if(G)M{Y} , char ]  [ U-> .if(G)M{Y} , for ]  [ U-> .if(G)M{Y} , id ]  [ U-> .if(G)M{Y} , if ]  [ U-> .if(G)M{Y} , int ]  [ U-> .if(G)M{Y} , while ]  [ U-> .if(G)M{Y} , } ]  
+I192:
+[ G-> G||MJ. , ) ]  [ G-> G||MJ. , || ]  [ J-> J.&&MK , ) ]  [ J-> J.&&MK , || ]  [ J-> J.&&MK , && ]  
+I193:
+[ J-> J&&MK. , ) ]  [ J-> J&&MK. , || ]  [ J-> J&&MK. , && ]  
+I194:
+[ G-> G||M.J , ) ]  [ G-> G||M.J , || ]  [ G-> G||M.J , && ]  [ J-> .J&&MK , ) ]  [ J-> .K , ) ]  [ J-> .J&&MK , || ]  [ J-> .K , || ]  [ J-> .J&&MK , && ]  [ J-> .K , && ]  [ K-> .(G) , ) ]  [ K-> .!G , ) ]  [ K-> .true , ) ]  [ K-> .false , ) ]  [ K-> .EHE , ) ]  [ K-> .id , ) ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I195:
+[ E-> E+.I , ) ]  [ E-> E+.I , || ]  [ E-> E+.I , && ]  [ E-> E+.I , + ]  [ E-> E+.I , - ]  [ I-> .I*F , ) ]  [ I-> .I/F , ) ]  [ I-> .F , ) ]  [ I-> .I*F , || ]  [ I-> .I/F , || ]  [ I-> .F , || ]  [ I-> .I*F , && ]  [ I-> .I/F , && ]  [ I-> .F , && ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , ) ]  [ F-> .num , ) ]  [ F-> .id , ) ]  [ F-> .(E) , || ]  [ F-> .num , || ]  [ F-> .id , || ]  [ F-> .(E) , && ]  [ F-> .num , && ]  [ F-> .id , && ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I196:
+[ E-> E-.I , ) ]  [ E-> E-.I , || ]  [ E-> E-.I , && ]  [ E-> E-.I , + ]  [ E-> E-.I , - ]  [ I-> .I*F , ) ]  [ I-> .I/F , ) ]  [ I-> .F , ) ]  [ I-> .I*F , || ]  [ I-> .I/F , || ]  [ I-> .F , || ]  [ I-> .I*F , && ]  [ I-> .I/F , && ]  [ I-> .F , && ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , ) ]  [ F-> .num , ) ]  [ F-> .id , ) ]  [ F-> .(E) , || ]  [ F-> .num , || ]  [ F-> .id , || ]  [ F-> .(E) , && ]  [ F-> .num , && ]  [ F-> .id , && ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I197:
+[ I-> I*.F , ) ]  [ I-> I*.F , || ]  [ I-> I*.F , && ]  [ I-> I*.F , + ]  [ I-> I*.F , - ]  [ I-> I*.F , * ]  [ I-> I*.F , / ]  [ F-> .(E) , ) ]  [ F-> .num , ) ]  [ F-> .id , ) ]  [ F-> .(E) , || ]  [ F-> .num , || ]  [ F-> .id , || ]  [ F-> .(E) , && ]  [ F-> .num , && ]  [ F-> .id , && ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I198:
+[ I-> I/.F , ) ]  [ I-> I/.F , || ]  [ I-> I/.F , && ]  [ I-> I/.F , + ]  [ I-> I/.F , - ]  [ I-> I/.F , * ]  [ I-> I/.F , / ]  [ F-> .(E) , ) ]  [ F-> .num , ) ]  [ F-> .id , ) ]  [ F-> .(E) , || ]  [ F-> .num , || ]  [ F-> .id , || ]  [ F-> .(E) , && ]  [ F-> .num , && ]  [ F-> .id , && ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I199:
+[ F-> (E.) , ) ]  [ F-> (E.) , || ]  [ F-> (E.) , && ]  [ F-> (E.) , + ]  [ F-> (E.) , - ]  [ F-> (E.) , * ]  [ F-> (E.) , / ]  [ E-> E.+I , ) ]  [ E-> E.-I , ) ]  [ E-> E.+I , + ]  [ E-> E.-I , + ]  [ E-> E.+I , - ]  [ E-> E.-I , - ]  
+I200:
+[ E-> E+.I , , ]  [ E-> E+.I , ; ]  [ E-> E+.I , || ]  [ E-> E+.I , && ]  [ E-> E+.I , + ]  [ E-> E+.I , - ]  [ I-> .I*F , , ]  [ I-> .I/F , , ]  [ I-> .F , , ]  [ I-> .I*F , ; ]  [ I-> .I/F , ; ]  [ I-> .F , ; ]  [ I-> .I*F , || ]  [ I-> .I/F , || ]  [ I-> .F , || ]  [ I-> .I*F , && ]  [ I-> .I/F , && ]  [ I-> .F , && ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , , ]  [ F-> .num , , ]  [ F-> .id , , ]  [ F-> .(E) , ; ]  [ F-> .num , ; ]  [ F-> .id , ; ]  [ F-> .(E) , || ]  [ F-> .num , || ]  [ F-> .id , || ]  [ F-> .(E) , && ]  [ F-> .num , && ]  [ F-> .id , && ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I201:
+[ E-> E-.I , , ]  [ E-> E-.I , ; ]  [ E-> E-.I , || ]  [ E-> E-.I , && ]  [ E-> E-.I , + ]  [ E-> E-.I , - ]  [ I-> .I*F , , ]  [ I-> .I/F , , ]  [ I-> .F , , ]  [ I-> .I*F , ; ]  [ I-> .I/F , ; ]  [ I-> .F , ; ]  [ I-> .I*F , || ]  [ I-> .I/F , || ]  [ I-> .F , || ]  [ I-> .I*F , && ]  [ I-> .I/F , && ]  [ I-> .F , && ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , , ]  [ F-> .num , , ]  [ F-> .id , , ]  [ F-> .(E) , ; ]  [ F-> .num , ; ]  [ F-> .id , ; ]  [ F-> .(E) , || ]  [ F-> .num , || ]  [ F-> .id , || ]  [ F-> .(E) , && ]  [ F-> .num , && ]  [ F-> .id , && ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I202:
+[ I-> I*.F , , ]  [ I-> I*.F , ; ]  [ I-> I*.F , || ]  [ I-> I*.F , && ]  [ I-> I*.F , + ]  [ I-> I*.F , - ]  [ I-> I*.F , * ]  [ I-> I*.F , / ]  [ F-> .(E) , , ]  [ F-> .num , , ]  [ F-> .id , , ]  [ F-> .(E) , ; ]  [ F-> .num , ; ]  [ F-> .id , ; ]  [ F-> .(E) , || ]  [ F-> .num , || ]  [ F-> .id , || ]  [ F-> .(E) , && ]  [ F-> .num , && ]  [ F-> .id , && ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I203:
+[ I-> I/.F , , ]  [ I-> I/.F , ; ]  [ I-> I/.F , || ]  [ I-> I/.F , && ]  [ I-> I/.F , + ]  [ I-> I/.F , - ]  [ I-> I/.F , * ]  [ I-> I/.F , / ]  [ F-> .(E) , , ]  [ F-> .num , , ]  [ F-> .id , , ]  [ F-> .(E) , ; ]  [ F-> .num , ; ]  [ F-> .id , ; ]  [ F-> .(E) , || ]  [ F-> .num , || ]  [ F-> .id , || ]  [ F-> .(E) , && ]  [ F-> .num , && ]  [ F-> .id , && ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I204:
+[ F-> (E.) , , ]  [ F-> (E.) , ; ]  [ F-> (E.) , || ]  [ F-> (E.) , && ]  [ F-> (E.) , + ]  [ F-> (E.) , - ]  [ F-> (E.) , * ]  [ F-> (E.) , / ]  [ E-> E.+I , ) ]  [ E-> E.-I , ) ]  [ E-> E.+I , + ]  [ E-> E.-I , + ]  [ E-> E.+I , - ]  [ E-> E.-I , - ]  
+I205:
+[ G-> G||MJ. , , ]  [ G-> G||MJ. , ; ]  [ G-> G||MJ. , || ]  [ J-> J.&&MK , , ]  [ J-> J.&&MK , ; ]  [ J-> J.&&MK , || ]  [ J-> J.&&MK , && ]  
+I206:
+[ J-> J&&MK. , , ]  [ J-> J&&MK. , ; ]  [ J-> J&&MK. , || ]  [ J-> J&&MK. , && ]  
+I207:
+[ G-> G||M.J , , ]  [ G-> G||M.J , ; ]  [ G-> G||M.J , || ]  [ G-> G||M.J , && ]  [ J-> .J&&MK , , ]  [ J-> .K , , ]  [ J-> .J&&MK , ; ]  [ J-> .K , ; ]  [ J-> .J&&MK , || ]  [ J-> .K , || ]  [ J-> .J&&MK , && ]  [ J-> .K , && ]  [ K-> .(G) , , ]  [ K-> .!G , , ]  [ K-> .true , , ]  [ K-> .false , , ]  [ K-> .EHE , , ]  [ K-> .id , , ]  [ K-> .(G) , ; ]  [ K-> .!G , ; ]  [ K-> .true , ; ]  [ K-> .false , ; ]  [ K-> .EHE , ; ]  [ K-> .id , ; ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  
+I208:
+[ E-> E+I. , ; ]  [ E-> E+I. , || ]  [ E-> E+I. , && ]  [ E-> E+I. , + ]  [ E-> E+I. , - ]  [ I-> I.*F , ; ]  [ I-> I./F , ; ]  [ I-> I.*F , || ]  [ I-> I./F , || ]  [ I-> I.*F , && ]  [ I-> I./F , && ]  [ I-> I.*F , + ]  [ I-> I./F , + ]  [ I-> I.*F , - ]  [ I-> I./F , - ]  [ I-> I.*F , * ]  [ I-> I./F , * ]  [ I-> I.*F , / ]  [ I-> I./F , / ]  
+I209:
+[ E-> E-I. , ; ]  [ E-> E-I. , || ]  [ E-> E-I. , && ]  [ E-> E-I. , + ]  [ E-> E-I. , - ]  [ I-> I.*F , ; ]  [ I-> I./F , ; ]  [ I-> I.*F , || ]  [ I-> I./F , || ]  [ I-> I.*F , && ]  [ I-> I./F , && ]  [ I-> I.*F , + ]  [ I-> I./F , + ]  [ I-> I.*F , - ]  [ I-> I./F , - ]  [ I-> I.*F , * ]  [ I-> I./F , * ]  [ I-> I.*F , / ]  [ I-> I./F , / ]  
+I210:
+[ I-> I*F. , ; ]  [ I-> I*F. , || ]  [ I-> I*F. , && ]  [ I-> I*F. , + ]  [ I-> I*F. , - ]  [ I-> I*F. , * ]  [ I-> I*F. , / ]  
+I211:
+[ I-> I/F. , ; ]  [ I-> I/F. , || ]  [ I-> I/F. , && ]  [ I-> I/F. , + ]  [ I-> I/F. , - ]  [ I-> I/F. , * ]  [ I-> I/F. , / ]  
+I212:
+[ F-> (E). , ; ]  [ F-> (E). , || ]  [ F-> (E). , && ]  [ F-> (E). , + ]  [ F-> (E). , - ]  [ F-> (E). , * ]  [ F-> (E). , / ]  
+I213:
+[ G-> G||MJ. , ; ]  [ G-> G||MJ. , || ]  [ G-> G||MJ. , && ]  [ J-> J.&&MK , ; ]  [ J-> J.&&MK , || ]  [ J-> J.&&MK , && ]  
+I214:
+[ V-> NelseM{Y}. , bool ]  [ V-> NelseM{Y}. , char ]  [ V-> NelseM{Y}. , for ]  [ V-> NelseM{Y}. , id ]  [ V-> NelseM{Y}. , if ]  [ V-> NelseM{Y}. , int ]  [ V-> NelseM{Y}. , while ]  [ V-> NelseM{Y}. , } ]  
+I215:
+[ L-> whileM(G)M{.Y} , bool ]  [ L-> whileM(G)M{.Y} , char ]  [ L-> whileM(G)M{.Y} , for ]  [ L-> whileM(G)M{.Y} , id ]  [ L-> whileM(G)M{.Y} , if ]  [ L-> whileM(G)M{.Y} , int ]  [ L-> whileM(G)M{.Y} , while ]  [ L-> whileM(G)M{.Y} , } ]  [ Y-> .OY , } ]  [ Y-> .# , } ]  [ O-> .D; , bool ]  [ O-> .D; , char ]  [ O-> .D; , for ]  [ O-> .D; , id ]  [ O-> .D; , if ]  [ O-> .D; , int ]  [ O-> .D; , while ]  [ O-> .D; , } ]  [ O-> .C , bool ]  [ O-> .C , char ]  [ O-> .C , for ]  [ O-> .C , id ]  [ O-> .C , if ]  [ O-> .C , int ]  [ O-> .C , while ]  [ O-> .C , } ]  [ O-> .A; , bool ]  [ O-> .A; , char ]  [ O-> .A; , for ]  [ O-> .A; , id ]  [ O-> .A; , if ]  [ O-> .A; , int ]  [ O-> .A; , while ]  [ O-> .A; , } ]  [ D-> .TP , ; ]  [ C-> .B , bool ]  [ C-> .L , bool ]  [ C-> .B , char ]  [ C-> .L , char ]  [ C-> .B , for ]  [ C-> .L , for ]  [ C-> .B , id ]  [ C-> .L , id ]  [ C-> .B , if ]  [ C-> .L , if ]  [ C-> .B , int ]  [ C-> .L , int ]  [ C-> .B , while ]  [ C-> .L , while ]  [ C-> .B , } ]  [ C-> .L , } ]  [ A-> .id=E , ; ]  [ A-> .id=G , ; ]  [ A-> .id=true , ; ]  [ A-> .id=false , ; ]  [ A-> .id++ , ; ]  [ A-> .id-- , ; ]  [ A-> .id=character , ; ]  [ T-> .int , id ]  [ T-> .char , id ]  [ T-> .bool , id ]  [ B-> .UV , bool ]  [ L-> .whileM(G)M{Y} , bool ]  [ L-> .for(RA;MG;A)M{Y} , bool ]  [ B-> .UV , char ]  [ L-> .whileM(G)M{Y} , char ]  [ L-> .for(RA;MG;A)M{Y} , char ]  [ B-> .UV , for ]  [ L-> .whileM(G)M{Y} , for ]  [ L-> .for(RA;MG;A)M{Y} , for ]  [ B-> .UV , id ]  [ L-> .whileM(G)M{Y} , id ]  [ L-> .for(RA;MG;A)M{Y} , id ]  [ B-> .UV , if ]  [ L-> .whileM(G)M{Y} , if ]  [ L-> .for(RA;MG;A)M{Y} , if ]  [ B-> .UV , int ]  [ L-> .whileM(G)M{Y} , int ]  [ L-> .for(RA;MG;A)M{Y} , int ]  [ B-> .UV , while ]  [ L-> .whileM(G)M{Y} , while ]  [ L-> .for(RA;MG;A)M{Y} , while ]  [ B-> .UV , } ]  [ L-> .whileM(G)M{Y} , } ]  [ L-> .for(RA;MG;A)M{Y} , } ]  [ U-> .if(G)M{Y} , bool ]  [ U-> .if(G)M{Y} , else ]  [ U-> .if(G)M{Y} , char ]  [ U-> .if(G)M{Y} , for ]  [ U-> .if(G)M{Y} , id ]  [ U-> .if(G)M{Y} , if ]  [ U-> .if(G)M{Y} , int ]  [ U-> .if(G)M{Y} , while ]  [ U-> .if(G)M{Y} , } ]  
+I216:
+[ L-> for(RA;MG.;A)M{Y} , bool ]  [ L-> for(RA;MG.;A)M{Y} , char ]  [ L-> for(RA;MG.;A)M{Y} , for ]  [ L-> for(RA;MG.;A)M{Y} , id ]  [ L-> for(RA;MG.;A)M{Y} , if ]  [ L-> for(RA;MG.;A)M{Y} , int ]  [ L-> for(RA;MG.;A)M{Y} , while ]  [ L-> for(RA;MG.;A)M{Y} , } ]  [ G-> G.||MJ , ; ]  [ G-> G.||MJ , || ]  
+I217:
+[ U-> if(G)M{Y.} , bool ]  [ U-> if(G)M{Y.} , else ]  [ U-> if(G)M{Y.} , char ]  [ U-> if(G)M{Y.} , for ]  [ U-> if(G)M{Y.} , id ]  [ U-> if(G)M{Y.} , if ]  [ U-> if(G)M{Y.} , int ]  [ U-> if(G)M{Y.} , while ]  [ U-> if(G)M{Y.} , } ]  
+I218:
+[ G-> G||MJ. , ) ]  [ G-> G||MJ. , || ]  [ G-> G||MJ. , && ]  [ J-> J.&&MK , ) ]  [ J-> J.&&MK , || ]  [ J-> J.&&MK , && ]  
+I219:
+[ E-> E+I. , ) ]  [ E-> E+I. , || ]  [ E-> E+I. , && ]  [ E-> E+I. , + ]  [ E-> E+I. , - ]  [ I-> I.*F , ) ]  [ I-> I./F , ) ]  [ I-> I.*F , || ]  [ I-> I./F , || ]  [ I-> I.*F , && ]  [ I-> I./F , && ]  [ I-> I.*F , + ]  [ I-> I./F , + ]  [ I-> I.*F , - ]  [ I-> I./F , - ]  [ I-> I.*F , * ]  [ I-> I./F , * ]  [ I-> I.*F , / ]  [ I-> I./F , / ]  
+I220:
+[ E-> E-I. , ) ]  [ E-> E-I. , || ]  [ E-> E-I. , && ]  [ E-> E-I. , + ]  [ E-> E-I. , - ]  [ I-> I.*F , ) ]  [ I-> I./F , ) ]  [ I-> I.*F , || ]  [ I-> I./F , || ]  [ I-> I.*F , && ]  [ I-> I./F , && ]  [ I-> I.*F , + ]  [ I-> I./F , + ]  [ I-> I.*F , - ]  [ I-> I./F , - ]  [ I-> I.*F , * ]  [ I-> I./F , * ]  [ I-> I.*F , / ]  [ I-> I./F , / ]  
+I221:
+[ I-> I*F. , ) ]  [ I-> I*F. , || ]  [ I-> I*F. , && ]  [ I-> I*F. , + ]  [ I-> I*F. , - ]  [ I-> I*F. , * ]  [ I-> I*F. , / ]  
+I222:
+[ I-> I/F. , ) ]  [ I-> I/F. , || ]  [ I-> I/F. , && ]  [ I-> I/F. , + ]  [ I-> I/F. , - ]  [ I-> I/F. , * ]  [ I-> I/F. , / ]  
+I223:
+[ F-> (E). , ) ]  [ F-> (E). , || ]  [ F-> (E). , && ]  [ F-> (E). , + ]  [ F-> (E). , - ]  [ F-> (E). , * ]  [ F-> (E). , / ]  
+I224:
+[ E-> E+I. , , ]  [ E-> E+I. , ; ]  [ E-> E+I. , || ]  [ E-> E+I. , && ]  [ E-> E+I. , + ]  [ E-> E+I. , - ]  [ I-> I.*F , , ]  [ I-> I./F , , ]  [ I-> I.*F , ; ]  [ I-> I./F , ; ]  [ I-> I.*F , || ]  [ I-> I./F , || ]  [ I-> I.*F , && ]  [ I-> I./F , && ]  [ I-> I.*F , + ]  [ I-> I./F , + ]  [ I-> I.*F , - ]  [ I-> I./F , - ]  [ I-> I.*F , * ]  [ I-> I./F , * ]  [ I-> I.*F , / ]  [ I-> I./F , / ]  
+I225:
+[ E-> E-I. , , ]  [ E-> E-I. , ; ]  [ E-> E-I. , || ]  [ E-> E-I. , && ]  [ E-> E-I. , + ]  [ E-> E-I. , - ]  [ I-> I.*F , , ]  [ I-> I./F , , ]  [ I-> I.*F , ; ]  [ I-> I./F , ; ]  [ I-> I.*F , || ]  [ I-> I./F , || ]  [ I-> I.*F , && ]  [ I-> I./F , && ]  [ I-> I.*F , + ]  [ I-> I./F , + ]  [ I-> I.*F , - ]  [ I-> I./F , - ]  [ I-> I.*F , * ]  [ I-> I./F , * ]  [ I-> I.*F , / ]  [ I-> I./F , / ]  
+I226:
+[ I-> I*F. , , ]  [ I-> I*F. , ; ]  [ I-> I*F. , || ]  [ I-> I*F. , && ]  [ I-> I*F. , + ]  [ I-> I*F. , - ]  [ I-> I*F. , * ]  [ I-> I*F. , / ]  
+I227:
+[ I-> I/F. , , ]  [ I-> I/F. , ; ]  [ I-> I/F. , || ]  [ I-> I/F. , && ]  [ I-> I/F. , + ]  [ I-> I/F. , - ]  [ I-> I/F. , * ]  [ I-> I/F. , / ]  
+I228:
+[ F-> (E). , , ]  [ F-> (E). , ; ]  [ F-> (E). , || ]  [ F-> (E). , && ]  [ F-> (E). , + ]  [ F-> (E). , - ]  [ F-> (E). , * ]  [ F-> (E). , / ]  
+I229:
+[ G-> G||MJ. , , ]  [ G-> G||MJ. , ; ]  [ G-> G||MJ. , || ]  [ G-> G||MJ. , && ]  [ J-> J.&&MK , , ]  [ J-> J.&&MK , ; ]  [ J-> J.&&MK , || ]  [ J-> J.&&MK , && ]  
+I230:
+[ L-> whileM(G)M{Y.} , bool ]  [ L-> whileM(G)M{Y.} , char ]  [ L-> whileM(G)M{Y.} , for ]  [ L-> whileM(G)M{Y.} , id ]  [ L-> whileM(G)M{Y.} , if ]  [ L-> whileM(G)M{Y.} , int ]  [ L-> whileM(G)M{Y.} , while ]  [ L-> whileM(G)M{Y.} , } ]  
+I231:
+[ L-> for(RA;MG;.A)M{Y} , bool ]  [ L-> for(RA;MG;.A)M{Y} , char ]  [ L-> for(RA;MG;.A)M{Y} , for ]  [ L-> for(RA;MG;.A)M{Y} , id ]  [ L-> for(RA;MG;.A)M{Y} , if ]  [ L-> for(RA;MG;.A)M{Y} , int ]  [ L-> for(RA;MG;.A)M{Y} , while ]  [ L-> for(RA;MG;.A)M{Y} , } ]  [ A-> .id=E , ) ]  [ A-> .id=G , ) ]  [ A-> .id=true , ) ]  [ A-> .id=false , ) ]  [ A-> .id++ , ) ]  [ A-> .id-- , ) ]  [ A-> .id=character , ) ]  
+I232:
+[ U-> if(G)M{Y}. , bool ]  [ U-> if(G)M{Y}. , else ]  [ U-> if(G)M{Y}. , char ]  [ U-> if(G)M{Y}. , for ]  [ U-> if(G)M{Y}. , id ]  [ U-> if(G)M{Y}. , if ]  [ U-> if(G)M{Y}. , int ]  [ U-> if(G)M{Y}. , while ]  [ U-> if(G)M{Y}. , } ]  
+I233:
+[ L-> whileM(G)M{Y}. , bool ]  [ L-> whileM(G)M{Y}. , char ]  [ L-> whileM(G)M{Y}. , for ]  [ L-> whileM(G)M{Y}. , id ]  [ L-> whileM(G)M{Y}. , if ]  [ L-> whileM(G)M{Y}. , int ]  [ L-> whileM(G)M{Y}. , while ]  [ L-> whileM(G)M{Y}. , } ]  
+I234:
+[ L-> for(RA;MG;A.)M{Y} , bool ]  [ L-> for(RA;MG;A.)M{Y} , char ]  [ L-> for(RA;MG;A.)M{Y} , for ]  [ L-> for(RA;MG;A.)M{Y} , id ]  [ L-> for(RA;MG;A.)M{Y} , if ]  [ L-> for(RA;MG;A.)M{Y} , int ]  [ L-> for(RA;MG;A.)M{Y} , while ]  [ L-> for(RA;MG;A.)M{Y} , } ]  
+I235:
+[ A-> id.=E , ) ]  [ A-> id.=G , ) ]  [ A-> id.=true , ) ]  [ A-> id.=false , ) ]  [ A-> id.++ , ) ]  [ A-> id.-- , ) ]  [ A-> id.=character , ) ]  
+I236:
+[ L-> for(RA;MG;A).M{Y} , bool ]  [ L-> for(RA;MG;A).M{Y} , char ]  [ L-> for(RA;MG;A).M{Y} , for ]  [ L-> for(RA;MG;A).M{Y} , id ]  [ L-> for(RA;MG;A).M{Y} , if ]  [ L-> for(RA;MG;A).M{Y} , int ]  [ L-> for(RA;MG;A).M{Y} , while ]  [ L-> for(RA;MG;A).M{Y} , } ]  [ M-> .# , { ]  
+I237:
+[ A-> id=.E , ) ]  [ A-> id=.G , ) ]  [ A-> id=.true , ) ]  [ A-> id=.false , ) ]  [ A-> id=.character , ) ]  [ E-> .E+I , ) ]  [ E-> .E-I , ) ]  [ E-> .I , ) ]  [ G-> .G||MJ , ) ]  [ G-> .J , ) ]  [ E-> .E+I , + ]  [ E-> .E-I , + ]  [ E-> .I , + ]  [ E-> .E+I , - ]  [ E-> .E-I , - ]  [ E-> .I , - ]  [ I-> .I*F , ) ]  [ I-> .I/F , ) ]  [ I-> .F , ) ]  [ G-> .G||MJ , || ]  [ G-> .J , || ]  [ J-> .J&&MK , ) ]  [ J-> .K , ) ]  [ I-> .I*F , + ]  [ I-> .I/F , + ]  [ I-> .F , + ]  [ I-> .I*F , - ]  [ I-> .I/F , - ]  [ I-> .F , - ]  [ I-> .I*F , * ]  [ I-> .I/F , * ]  [ I-> .F , * ]  [ I-> .I*F , / ]  [ I-> .I/F , / ]  [ I-> .F , / ]  [ F-> .(E) , ) ]  [ F-> .num , ) ]  [ F-> .id , ) ]  [ J-> .J&&MK , || ]  [ J-> .K , || ]  [ J-> .J&&MK , && ]  [ J-> .K , && ]  [ K-> .(G) , ) ]  [ K-> .!G , ) ]  [ K-> .true , ) ]  [ K-> .false , ) ]  [ K-> .EHE , ) ]  [ K-> .id , ) ]  [ F-> .(E) , + ]  [ F-> .num , + ]  [ F-> .id , + ]  [ F-> .(E) , - ]  [ F-> .num , - ]  [ F-> .id , - ]  [ F-> .(E) , * ]  [ F-> .num , * ]  [ F-> .id , * ]  [ F-> .(E) , / ]  [ F-> .num , / ]  [ F-> .id , / ]  [ K-> .(G) , || ]  [ K-> .!G , || ]  [ K-> .true , || ]  [ K-> .false , || ]  [ K-> .EHE , || ]  [ K-> .id , || ]  [ K-> .(G) , && ]  [ K-> .!G , && ]  [ K-> .true , && ]  [ K-> .false , && ]  [ K-> .EHE , && ]  [ K-> .id , && ]  [ E-> .E+I , != ]  [ E-> .E+I , < ]  [ E-> .E+I , <= ]  [ E-> .E+I , == ]  [ E-> .E+I , > ]  [ E-> .E+I , >= ]  [ E-> .E-I , != ]  [ E-> .E-I , < ]  [ E-> .E-I , <= ]  [ E-> .E-I , == ]  [ E-> .E-I , > ]  [ E-> .E-I , >= ]  [ E-> .I , != ]  [ E-> .I , < ]  [ E-> .I , <= ]  [ E-> .I , == ]  [ E-> .I , > ]  [ E-> .I , >= ]  [ I-> .I*F , != ]  [ I-> .I/F , != ]  [ I-> .F , != ]  [ I-> .I*F , < ]  [ I-> .I/F , < ]  [ I-> .F , < ]  [ I-> .I*F , <= ]  [ I-> .I/F , <= ]  [ I-> .F , <= ]  [ I-> .I*F , == ]  [ I-> .I/F , == ]  [ I-> .F , == ]  [ I-> .I*F , > ]  [ I-> .I/F , > ]  [ I-> .F , > ]  [ I-> .I*F , >= ]  [ I-> .I/F , >= ]  [ I-> .F , >= ]  [ F-> .(E) , != ]  [ F-> .num , != ]  [ F-> .id , != ]  [ F-> .(E) , < ]  [ F-> .num , < ]  [ F-> .id , < ]  [ F-> .(E) , <= ]  [ F-> .num , <= ]  [ F-> .id , <= ]  [ F-> .(E) , == ]  [ F-> .num , == ]  [ F-> .id , == ]  [ F-> .(E) , > ]  [ F-> .num , > ]  [ F-> .id , > ]  [ F-> .(E) , >= ]  [ F-> .num , >= ]  [ F-> .id , >= ]  
+I238:
+[ A-> id++. , ) ]  
+I239:
+[ A-> id--. , ) ]  
+I240:
+[ L-> for(RA;MG;A)M.{Y} , bool ]  [ L-> for(RA;MG;A)M.{Y} , char ]  [ L-> for(RA;MG;A)M.{Y} , for ]  [ L-> for(RA;MG;A)M.{Y} , id ]  [ L-> for(RA;MG;A)M.{Y} , if ]  [ L-> for(RA;MG;A)M.{Y} , int ]  [ L-> for(RA;MG;A)M.{Y} , while ]  [ L-> for(RA;MG;A)M.{Y} , } ]  
+I241:
+[ A-> id=character. , ) ]  
+I242:
+[ A-> id=false. , ) ]  [ K-> false. , ) ]  [ K-> false. , || ]  [ K-> false. , && ]  
+I243:
+[ A-> id=E. , ) ]  [ E-> E.+I , ) ]  [ E-> E.-I , ) ]  [ E-> E.+I , + ]  [ E-> E.-I , + ]  [ E-> E.+I , - ]  [ E-> E.-I , - ]  [ K-> E.HE , ) ]  [ K-> E.HE , || ]  [ K-> E.HE , && ]  [ E-> E.+I , != ]  [ E-> E.+I , < ]  [ E-> E.+I , <= ]  [ E-> E.+I , == ]  [ E-> E.+I , > ]  [ E-> E.+I , >= ]  [ E-> E.-I , != ]  [ E-> E.-I , < ]  [ E-> E.-I , <= ]  [ E-> E.-I , == ]  [ E-> E.-I , > ]  [ E-> E.-I , >= ]  [ H-> .== , ( ]  [ H-> .== , id ]  [ H-> .== , num ]  [ H-> .> , ( ]  [ H-> .> , id ]  [ H-> .> , num ]  [ H-> .< , ( ]  [ H-> .< , id ]  [ H-> .< , num ]  [ H-> .>= , ( ]  [ H-> .>= , id ]  [ H-> .>= , num ]  [ H-> .<= , ( ]  [ H-> .<= , id ]  [ H-> .<= , num ]  [ H-> .!= , ( ]  [ H-> .!= , id ]  [ H-> .!= , num ]  
+I244:
+[ A-> id=G. , ) ]  [ G-> G.||MJ , ) ]  [ G-> G.||MJ , || ]  
+I245:
+[ A-> id=true. , ) ]  [ K-> true. , ) ]  [ K-> true. , || ]  [ K-> true. , && ]  
+I246:
+[ L-> for(RA;MG;A)M{.Y} , bool ]  [ L-> for(RA;MG;A)M{.Y} , char ]  [ L-> for(RA;MG;A)M{.Y} , for ]  [ L-> for(RA;MG;A)M{.Y} , id ]  [ L-> for(RA;MG;A)M{.Y} , if ]  [ L-> for(RA;MG;A)M{.Y} , int ]  [ L-> for(RA;MG;A)M{.Y} , while ]  [ L-> for(RA;MG;A)M{.Y} , } ]  [ Y-> .OY , } ]  [ Y-> .# , } ]  [ O-> .D; , bool ]  [ O-> .D; , char ]  [ O-> .D; , for ]  [ O-> .D; , id ]  [ O-> .D; , if ]  [ O-> .D; , int ]  [ O-> .D; , while ]  [ O-> .D; , } ]  [ O-> .C , bool ]  [ O-> .C , char ]  [ O-> .C , for ]  [ O-> .C , id ]  [ O-> .C , if ]  [ O-> .C , int ]  [ O-> .C , while ]  [ O-> .C , } ]  [ O-> .A; , bool ]  [ O-> .A; , char ]  [ O-> .A; , for ]  [ O-> .A; , id ]  [ O-> .A; , if ]  [ O-> .A; , int ]  [ O-> .A; , while ]  [ O-> .A; , } ]  [ D-> .TP , ; ]  [ C-> .B , bool ]  [ C-> .L , bool ]  [ C-> .B , char ]  [ C-> .L , char ]  [ C-> .B , for ]  [ C-> .L , for ]  [ C-> .B , id ]  [ C-> .L , id ]  [ C-> .B , if ]  [ C-> .L , if ]  [ C-> .B , int ]  [ C-> .L , int ]  [ C-> .B , while ]  [ C-> .L , while ]  [ C-> .B , } ]  [ C-> .L , } ]  [ A-> .id=E , ; ]  [ A-> .id=G , ; ]  [ A-> .id=true , ; ]  [ A-> .id=false , ; ]  [ A-> .id++ , ; ]  [ A-> .id-- , ; ]  [ A-> .id=character , ; ]  [ T-> .int , id ]  [ T-> .char , id ]  [ T-> .bool , id ]  [ B-> .UV , bool ]  [ L-> .whileM(G)M{Y} , bool ]  [ L-> .for(RA;MG;A)M{Y} , bool ]  [ B-> .UV , char ]  [ L-> .whileM(G)M{Y} , char ]  [ L-> .for(RA;MG;A)M{Y} , char ]  [ B-> .UV , for ]  [ L-> .whileM(G)M{Y} , for ]  [ L-> .for(RA;MG;A)M{Y} , for ]  [ B-> .UV , id ]  [ L-> .whileM(G)M{Y} , id ]  [ L-> .for(RA;MG;A)M{Y} , id ]  [ B-> .UV , if ]  [ L-> .whileM(G)M{Y} , if ]  [ L-> .for(RA;MG;A)M{Y} , if ]  [ B-> .UV , int ]  [ L-> .whileM(G)M{Y} , int ]  [ L-> .for(RA;MG;A)M{Y} , int ]  [ B-> .UV , while ]  [ L-> .whileM(G)M{Y} , while ]  [ L-> .for(RA;MG;A)M{Y} , while ]  [ B-> .UV , } ]  [ L-> .whileM(G)M{Y} , } ]  [ L-> .for(RA;MG;A)M{Y} , } ]  [ U-> .if(G)M{Y} , bool ]  [ U-> .if(G)M{Y} , else ]  [ U-> .if(G)M{Y} , char ]  [ U-> .if(G)M{Y} , for ]  [ U-> .if(G)M{Y} , id ]  [ U-> .if(G)M{Y} , if ]  [ U-> .if(G)M{Y} , int ]  [ U-> .if(G)M{Y} , while ]  [ U-> .if(G)M{Y} , } ]  
+I247:
+[ L-> for(RA;MG;A)M{Y.} , bool ]  [ L-> for(RA;MG;A)M{Y.} , char ]  [ L-> for(RA;MG;A)M{Y.} , for ]  [ L-> for(RA;MG;A)M{Y.} , id ]  [ L-> for(RA;MG;A)M{Y.} , if ]  [ L-> for(RA;MG;A)M{Y.} , int ]  [ L-> for(RA;MG;A)M{Y.} , while ]  [ L-> for(RA;MG;A)M{Y.} , } ]  
+I248:
+[ L-> for(RA;MG;A)M{Y}. , bool ]  [ L-> for(RA;MG;A)M{Y}. , char ]  [ L-> for(RA;MG;A)M{Y}. , for ]  [ L-> for(RA;MG;A)M{Y}. , id ]  [ L-> for(RA;MG;A)M{Y}. , if ]  [ L-> for(RA;MG;A)M{Y}. , int ]  [ L-> for(RA;MG;A)M{Y}. , while ]  [ L-> for(RA;MG;A)M{Y}. , } ]  
+
+t( 0 , S )=1
+t( 0 , void )=2
+t( 2 , main )=3
+t( 3 , ( )=4
+t( 4 , ) )=5
+t( 5 , { )=6
+t( 6 , A )=7
+t( 6 , Y )=8
+t( 6 , O )=9
+t( 6 , L )=10
+t( 6 , T )=11
+t( 6 , D )=12
+t( 6 , C )=13
+t( 6 , B )=14
+t( 6 , id )=15
+t( 6 , int )=16
+t( 6 , char )=17
+t( 6 , bool )=18
+t( 6 , U )=19
+t( 6 , while )=20
+t( 6 , for )=21
+t( 6 , if )=22
+t( 7 , ; )=23
+t( 8 , } )=24
+t( 9 , A )=7
+t( 9 , Y )=25
+t( 9 , O )=9
+t( 9 , L )=10
+t( 9 , T )=11
+t( 9 , D )=12
+t( 9 , C )=13
+t( 9 , B )=14
+t( 9 , id )=15
+t( 9 , int )=16
+t( 9 , char )=17
+t( 9 , bool )=18
+t( 9 , U )=19
+t( 9 , while )=20
+t( 9 , for )=21
+t( 9 , if )=22
+t( 11 , P )=26
+t( 11 , A )=27
+t( 11 , Q )=28
+t( 11 , id )=29
+t( 12 , ; )=30
+t( 15 , = )=31
+t( 15 , ++ )=32
+t( 15 , -- )=33
+t( 19 , N )=34
+t( 19 , V )=35
+t( 20 , M )=36
+t( 21 , ( )=37
+t( 22 , ( )=38
+t( 28 , , )=39
+t( 29 , = )=40
+t( 29 , ++ )=41
+t( 29 , -- )=42
+t( 31 , character )=43
+t( 31 , false )=44
+t( 31 , E )=45
+t( 31 , G )=46
+t( 31 , J )=47
+t( 31 , true )=48
+t( 31 , I )=49
+t( 31 , F )=50
+t( 31 , K )=51
+t( 31 , ( )=52
+t( 31 , num )=53
+t( 31 , id )=54
+t( 31 , ! )=55
+t( 34 , else )=56
+t( 36 , ( )=57
+t( 37 , bool )=18
+t( 37 , char )=17
+t( 37 , R )=58
+t( 37 , T )=59
+t( 37 , int )=16
+t( 38 , G )=60
+t( 38 , true )=61
+t( 38 , J )=62
+t( 38 , K )=63
+t( 38 , ( )=64
+t( 38 , ! )=65
+t( 38 , E )=66
+t( 38 , false )=67
+t( 38 , id )=68
+t( 38 , I )=49
+t( 38 , F )=50
+t( 38 , num )=53
+t( 39 , P )=69
+t( 39 , A )=27
+t( 39 , Q )=28
+t( 39 , id )=29
+t( 40 , character )=70
+t( 40 , false )=71
+t( 40 , E )=72
+t( 40 , G )=73
+t( 40 , J )=74
+t( 40 , true )=75
+t( 40 , I )=76
+t( 40 , F )=77
+t( 40 , K )=78
+t( 40 , ( )=79
+t( 40 , num )=80
+t( 40 , id )=81
+t( 40 , ! )=82
+t( 45 , <= )=83
+t( 45 , + )=84
+t( 45 , - )=85
+t( 45 , == )=86
+t( 45 , H )=87
+t( 45 , > )=88
+t( 45 , < )=89
+t( 45 , >= )=90
+t( 45 , != )=91
+t( 46 , || )=92
+t( 47 , && )=93
+t( 49 , * )=94
+t( 49 , / )=95
+t( 52 , E )=96
+t( 52 , G )=97
+t( 52 , I )=98
+t( 52 , J )=62
+t( 52 , F )=99
+t( 52 , K )=63
+t( 52 , ( )=100
+t( 52 , num )=101
+t( 52 , id )=102
+t( 52 , ! )=65
+t( 52 , true )=61
+t( 52 , false )=67
+t( 55 , G )=103
+t( 55 , true )=48
+t( 55 , J )=104
+t( 55 , K )=51
+t( 55 , ( )=52
+t( 55 , ! )=55
+t( 55 , E )=45
+t( 55 , false )=44
+t( 55 , id )=54
+t( 55 , I )=49
+t( 55 , F )=50
+t( 55 , num )=53
+t( 56 , M )=105
+t( 57 , G )=106
+t( 57 , true )=61
+t( 57 , J )=62
+t( 57 , K )=63
+t( 57 , ( )=64
+t( 57 , ! )=65
+t( 57 , E )=66
+t( 57 , false )=67
+t( 57 , id )=68
+t( 57 , I )=49
+t( 57 , F )=50
+t( 57 , num )=53
+t( 58 , A )=107
+t( 58 , id )=15
+t( 60 , ) )=108
+t( 60 , || )=109
+t( 62 , && )=110
+t( 64 , G )=111
+t( 64 , E )=96
+t( 64 , J )=62
+t( 64 , ! )=65
+t( 64 , I )=98
+t( 64 , K )=63
+t( 64 , F )=99
+t( 64 , ( )=100
+t( 64 , true )=61
+t( 64 , false )=67
+t( 64 , id )=102
+t( 64 , num )=101
+t( 65 , G )=112
+t( 65 , true )=61
+t( 65 , J )=113
+t( 65 , K )=63
+t( 65 , ( )=64
+t( 65 , ! )=65
+t( 65 , E )=66
+t( 65 , false )=67
+t( 65 , id )=68
+t( 65 , I )=49
+t( 65 , F )=50
+t( 65 , num )=53
+t( 66 , == )=86
+t( 66 , H )=114
+t( 66 , <= )=83
+t( 66 , + )=84
+t( 66 , - )=85
+t( 66 , > )=88
+t( 66 , < )=89
+t( 66 , >= )=90
+t( 66 , != )=91
+t( 72 , <= )=83
+t( 72 , + )=115
+t( 72 , - )=116
+t( 72 , == )=86
+t( 72 , H )=117
+t( 72 , > )=88
+t( 72 , < )=89
+t( 72 , >= )=90
+t( 72 , != )=91
+t( 73 , || )=118
+t( 74 , && )=119
+t( 76 , * )=120
+t( 76 , / )=121
+t( 79 , E )=122
+t( 79 , G )=123
+t( 79 , I )=98
+t( 79 , J )=62
+t( 79 , F )=99
+t( 79 , K )=63
+t( 79 , ( )=100
+t( 79 , num )=101
+t( 79 , id )=102
+t( 79 , ! )=65
+t( 79 , true )=61
+t( 79 , false )=67
+t( 82 , G )=124
+t( 82 , true )=75
+t( 82 , J )=125
+t( 82 , K )=78
+t( 82 , ( )=79
+t( 82 , ! )=82
+t( 82 , E )=72
+t( 82 , false )=71
+t( 82 , id )=81
+t( 82 , I )=49
+t( 82 , F )=50
+t( 82 , num )=53
+t( 84 , I )=126
+t( 84 , F )=50
+t( 84 , ( )=52
+t( 84 , num )=53
+t( 84 , id )=54
+t( 85 , I )=127
+t( 85 , F )=50
+t( 85 , ( )=52
+t( 85 , num )=53
+t( 85 , id )=54
+t( 87 , id )=128
+t( 87 , E )=129
+t( 87 , I )=130
+t( 87 , F )=131
+t( 87 , ( )=132
+t( 87 , num )=133
+t( 92 , M )=134
+t( 93 , M )=135
+t( 94 , F )=136
+t( 94 , ( )=52
+t( 94 , num )=53
+t( 94 , id )=54
+t( 95 , F )=137
+t( 95 , ( )=52
+t( 95 , num )=53
+t( 95 , id )=54
+t( 96 , >= )=90
+t( 96 , ) )=138
+t( 96 , + )=139
+t( 96 , - )=140
+t( 96 , == )=86
+t( 96 , H )=114
+t( 96 , > )=88
+t( 96 , < )=89
+t( 96 , <= )=83
+t( 96 , != )=91
+t( 97 , ) )=141
+t( 97 , || )=109
+t( 98 , * )=142
+t( 98 , / )=143
+t( 100 , E )=144
+t( 100 , G )=111
+t( 100 , I )=98
+t( 100 , J )=62
+t( 100 , F )=99
+t( 100 , K )=63
+t( 100 , ( )=100
+t( 100 , num )=101
+t( 100 , id )=102
+t( 100 , ! )=65
+t( 100 , true )=61
+t( 100 , false )=67
+t( 103 , || )=145
+t( 104 , && )=93
+t( 105 , { )=146
+t( 106 , ) )=147
+t( 106 , || )=109
+t( 107 , ; )=148
+t( 108 , M )=149
+t( 109 , M )=150
+t( 110 , M )=151
+t( 111 , ) )=152
+t( 111 , || )=109
+t( 112 , || )=153
+t( 113 , && )=110
+t( 114 , id )=154
+t( 114 , E )=155
+t( 114 , I )=156
+t( 114 , F )=157
+t( 114 , ( )=158
+t( 114 , num )=159
+t( 115 , I )=160
+t( 115 , F )=77
+t( 115 , ( )=79
+t( 115 , num )=80
+t( 115 , id )=81
+t( 116 , I )=161
+t( 116 , F )=77
+t( 116 , ( )=79
+t( 116 , num )=80
+t( 116 , id )=81
+t( 117 , id )=162
+t( 117 , E )=163
+t( 117 , I )=164
+t( 117 , F )=165
+t( 117 , ( )=166
+t( 117 , num )=167
+t( 118 , M )=168
+t( 119 , M )=169
+t( 120 , F )=170
+t( 120 , ( )=79
+t( 120 , num )=80
+t( 120 , id )=81
+t( 121 , F )=171
+t( 121 , ( )=79
+t( 121 , num )=80
+t( 121 , id )=81
+t( 122 , >= )=90
+t( 122 , ) )=172
+t( 122 , + )=139
+t( 122 , - )=140
+t( 122 , == )=86
+t( 122 , H )=114
+t( 122 , > )=88
+t( 122 , < )=89
+t( 122 , <= )=83
+t( 122 , != )=91
+t( 123 , ) )=173
+t( 123 , || )=109
+t( 124 , || )=174
+t( 125 , && )=119
+t( 126 , * )=94
+t( 126 , / )=95
+t( 127 , * )=94
+t( 127 , / )=95
+t( 129 , + )=175
+t( 129 , - )=176
+t( 130 , * )=177
+t( 130 , / )=178
+t( 132 , id )=102
+t( 132 , E )=179
+t( 132 , I )=98
+t( 132 , F )=99
+t( 132 , ( )=100
+t( 132 , num )=101
+t( 134 , true )=48
+t( 134 , J )=180
+t( 134 , K )=51
+t( 134 , ( )=52
+t( 134 , ! )=55
+t( 134 , id )=54
+t( 134 , E )=45
+t( 134 , false )=44
+t( 134 , I )=49
+t( 134 , F )=50
+t( 134 , num )=53
+t( 135 , K )=181
+t( 135 , ( )=52
+t( 135 , I )=49
+t( 135 , ! )=55
+t( 135 , true )=48
+t( 135 , id )=54
+t( 135 , E )=45
+t( 135 , false )=44
+t( 135 , F )=50
+t( 135 , num )=53
+t( 139 , I )=182
+t( 139 , F )=99
+t( 139 , ( )=100
+t( 139 , num )=101
+t( 139 , id )=102
+t( 140 , I )=183
+t( 140 , F )=99
+t( 140 , ( )=100
+t( 140 , num )=101
+t( 140 , id )=102
+t( 142 , F )=184
+t( 142 , ( )=100
+t( 142 , num )=101
+t( 142 , id )=102
+t( 143 , F )=185
+t( 143 , ( )=100
+t( 143 , num )=101
+t( 143 , id )=102
+t( 144 , >= )=90
+t( 144 , ) )=186
+t( 144 , + )=139
+t( 144 , - )=140
+t( 144 , == )=86
+t( 144 , H )=114
+t( 144 , > )=88
+t( 144 , < )=89
+t( 144 , <= )=83
+t( 144 , != )=91
+t( 145 , M )=187
+t( 146 , A )=7
+t( 146 , Y )=188
+t( 146 , O )=9
+t( 146 , L )=10
+t( 146 , T )=11
+t( 146 , D )=12
+t( 146 , C )=13
+t( 146 , B )=14
+t( 146 , id )=15
+t( 146 , int )=16
+t( 146 , char )=17
+t( 146 , bool )=18
+t( 146 , U )=19
+t( 146 , while )=20
+t( 146 , for )=21
+t( 146 , if )=22
+t( 147 , M )=189
+t( 148 , M )=190
+t( 149 , { )=191
+t( 150 , true )=61
+t( 150 , J )=192
+t( 150 , K )=63
+t( 150 , ( )=64
+t( 150 , ! )=65
+t( 150 , id )=68
+t( 150 , E )=66
+t( 150 , false )=67
+t( 150 , I )=49
+t( 150 , F )=50
+t( 150 , num )=53
+t( 151 , K )=193
+t( 151 , ( )=64
+t( 151 , I )=49
+t( 151 , ! )=65
+t( 151 , true )=61
+t( 151 , id )=68
+t( 151 , E )=66
+t( 151 , false )=67
+t( 151 , F )=50
+t( 151 , num )=53
+t( 153 , M )=194
+t( 155 , + )=195
+t( 155 , - )=196
+t( 156 , * )=197
+t( 156 , / )=198
+t( 158 , id )=102
+t( 158 , E )=199
+t( 158 , I )=98
+t( 158 , F )=99
+t( 158 , ( )=100
+t( 158 , num )=101
+t( 160 , * )=120
+t( 160 , / )=121
+t( 161 , * )=120
+t( 161 , / )=121
+t( 163 , + )=200
+t( 163 , - )=201
+t( 164 , * )=202
+t( 164 , / )=203
+t( 166 , id )=102
+t( 166 , E )=204
+t( 166 , I )=98
+t( 166 , F )=99
+t( 166 , ( )=100
+t( 166 , num )=101
+t( 168 , true )=75
+t( 168 , J )=205
+t( 168 , K )=78
+t( 168 , ( )=79
+t( 168 , ! )=82
+t( 168 , id )=81
+t( 168 , E )=72
+t( 168 , false )=71
+t( 168 , I )=49
+t( 168 , F )=50
+t( 168 , num )=53
+t( 169 , K )=206
+t( 169 , ( )=79
+t( 169 , I )=49
+t( 169 , ! )=82
+t( 169 , true )=75
+t( 169 , id )=81
+t( 169 , E )=72
+t( 169 , false )=71
+t( 169 , F )=50
+t( 169 , num )=53
+t( 174 , M )=207
+t( 175 , I )=208
+t( 175 , F )=131
+t( 175 , ( )=132
+t( 175 , num )=133
+t( 175 , id )=128
+t( 176 , I )=209
+t( 176 , F )=131
+t( 176 , ( )=132
+t( 176 , num )=133
+t( 176 , id )=128
+t( 177 , F )=210
+t( 177 , ( )=132
+t( 177 , num )=133
+t( 177 , id )=128
+t( 178 , F )=211
+t( 178 , ( )=132
+t( 178 , num )=133
+t( 178 , id )=128
+t( 179 , ) )=212
+t( 179 , + )=139
+t( 179 , - )=140
+t( 180 , && )=93
+t( 182 , * )=142
+t( 182 , / )=143
+t( 183 , * )=142
+t( 183 , / )=143
+t( 187 , true )=48
+t( 187 , J )=213
+t( 187 , K )=51
+t( 187 , ( )=52
+t( 187 , ! )=55
+t( 187 , id )=54
+t( 187 , E )=45
+t( 187 , false )=44
+t( 187 , I )=49
+t( 187 , F )=50
+t( 187 , num )=53
+t( 188 , } )=214
+t( 189 , { )=215
+t( 190 , G )=216
+t( 190 , true )=48
+t( 190 , J )=47
+t( 190 , K )=51
+t( 190 , ( )=52
+t( 190 , ! )=55
+t( 190 , E )=45
+t( 190 , false )=44
+t( 190 , id )=54
+t( 190 , I )=49
+t( 190 , F )=50
+t( 190 , num )=53
+t( 191 , A )=7
+t( 191 , Y )=217
+t( 191 , O )=9
+t( 191 , L )=10
+t( 191 , T )=11
+t( 191 , D )=12
+t( 191 , C )=13
+t( 191 , B )=14
+t( 191 , id )=15
+t( 191 , int )=16
+t( 191 , char )=17
+t( 191 , bool )=18
+t( 191 , U )=19
+t( 191 , while )=20
+t( 191 , for )=21
+t( 191 , if )=22
+t( 192 , && )=110
+t( 194 , true )=61
+t( 194 , J )=218
+t( 194 , K )=63
+t( 194 , ( )=64
+t( 194 , ! )=65
+t( 194 , id )=68
+t( 194 , E )=66
+t( 194 , false )=67
+t( 194 , I )=49
+t( 194 , F )=50
+t( 194 , num )=53
+t( 195 , I )=219
+t( 195 , F )=131
+t( 195 , ( )=132
+t( 195 , num )=133
+t( 195 , id )=128
+t( 196 , I )=220
+t( 196 , F )=131
+t( 196 , ( )=132
+t( 196 , num )=133
+t( 196 , id )=128
+t( 197 , F )=221
+t( 197 , ( )=132
+t( 197 , num )=133
+t( 197 , id )=128
+t( 198 , F )=222
+t( 198 , ( )=132
+t( 198 , num )=133
+t( 198 , id )=128
+t( 199 , ) )=223
+t( 199 , + )=139
+t( 199 , - )=140
+t( 200 , I )=224
+t( 200 , F )=131
+t( 200 , ( )=132
+t( 200 , num )=133
+t( 200 , id )=128
+t( 201 , I )=225
+t( 201 , F )=131
+t( 201 , ( )=132
+t( 201 , num )=133
+t( 201 , id )=128
+t( 202 , F )=226
+t( 202 , ( )=132
+t( 202 , num )=133
+t( 202 , id )=128
+t( 203 , F )=227
+t( 203 , ( )=132
+t( 203 , num )=133
+t( 203 , id )=128
+t( 204 , ) )=228
+t( 204 , + )=139
+t( 204 , - )=140
+t( 205 , && )=119
+t( 207 , true )=75
+t( 207 , J )=229
+t( 207 , K )=78
+t( 207 , ( )=79
+t( 207 , ! )=82
+t( 207 , id )=81
+t( 207 , E )=72
+t( 207 , false )=71
+t( 207 , I )=49
+t( 207 , F )=50
+t( 207 , num )=53
+t( 208 , * )=177
+t( 208 , / )=178
+t( 209 , * )=177
+t( 209 , / )=178
+t( 213 , && )=93
+t( 215 , A )=7
+t( 215 , Y )=230
+t( 215 , O )=9
+t( 215 , L )=10
+t( 215 , T )=11
+t( 215 , D )=12
+t( 215 , C )=13
+t( 215 , B )=14
+t( 215 , id )=15
+t( 215 , int )=16
+t( 215 , char )=17
+t( 215 , bool )=18
+t( 215 , U )=19
+t( 215 , while )=20
+t( 215 , for )=21
+t( 215 , if )=22
+t( 216 , ; )=231
+t( 216 , || )=92
+t( 217 , } )=232
+t( 218 , && )=110
+t( 219 , * )=177
+t( 219 , / )=178
+t( 220 , * )=177
+t( 220 , / )=178
+t( 224 , * )=177
+t( 224 , / )=178
+t( 225 , * )=177
+t( 225 , / )=178
+t( 229 , && )=119
+t( 230 , } )=233
+t( 231 , A )=234
+t( 231 , id )=235
+t( 234 , ) )=236
+t( 235 , = )=237
+t( 235 , ++ )=238
+t( 235 , -- )=239
+t( 236 , M )=240
+t( 237 , character )=241
+t( 237 , false )=242
+t( 237 , E )=243
+t( 237 , G )=244
+t( 237 , J )=62
+t( 237 , true )=245
+t( 237 , I )=98
+t( 237 , F )=99
+t( 237 , K )=63
+t( 237 , ( )=100
+t( 237 , num )=101
+t( 237 , id )=102
+t( 237 , ! )=65
+t( 240 , { )=246
+t( 243 , <= )=83
+t( 243 , + )=139
+t( 243 , - )=140
+t( 243 , == )=86
+t( 243 , H )=114
+t( 243 , > )=88
+t( 243 , < )=89
+t( 243 , >= )=90
+t( 243 , != )=91
+t( 244 , || )=109
+t( 246 , A )=7
+t( 246 , Y )=247
+t( 246 , O )=9
+t( 246 , L )=10
+t( 246 , T )=11
+t( 246 , D )=12
+t( 246 , C )=13
+t( 246 , B )=14
+t( 246 , id )=15
+t( 246 , int )=16
+t( 246 , char )=17
+t( 246 , bool )=18
+t( 246 , U )=19
+t( 246 , while )=20
+t( 246 , for )=21
+t( 246 , if )=22
+t( 247 , } )=248
