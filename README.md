@@ -18,6 +18,19 @@
 + **产生式集合P**：具体见source/grammar.txt
 + **关于产生式符号的一些说明**：大写字母为非终结符号，小写字母为终结符号。（O为其他，Y为语句体集合statement，D为声明语句，C为控制语句，A为赋值语句，B为条件分支语句，L为循环语句，T为变量类型，P和Q用于多个同类型变量同时声明，E为算术表达式，G为布尔表达式，F为因式，I为项，H为逻辑运算符，J和K用于布尔表达式计算，R表示for循环初始化有无声明类型，U为if分支，V为else分支或空）
 
+## 程序流程
+
+1. **词法分析流程**：
+![avater](/figures/lexical_analysis.png)
+
+
+2. **LR1分析表构造流程**：
+![avater](/figures/syntax_analysis1.png)
+
+3. **语法分析流程**：
+![avater](/figures/syntax_analysis2.png)
+
+
 ## 示例输入程序
 ```
 void main() {
